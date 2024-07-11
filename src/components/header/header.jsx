@@ -1,6 +1,8 @@
 import { images } from "@/constants";
+import { useNavigate } from "react-router";
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div className="fixed top-0 left-0 w-full bg-transparent px-6 py-2 h-[60px] flex justify-between">
       <img
@@ -16,10 +18,15 @@ const Header = () => {
         <a href="/events" className="cursor-pointer">
           Events
         </a>
-        <button  className="cursor-pointer px-8 py-[3px] border-white border-solid border-[1px] rounded-md">
+        <button
+          onClick={() => {
+            navigate("/");
+          }}
+          className="cursor-pointer px-8 py-[3px] border-white border-solid border-[1px] rounded-md"
+        >
           Login
         </button>
-        <button  className="bg-white text-black cursor-pointer px-8 py-[3px] border-white border-solid border-[1px] rounded-md ">
+        <button className="bg-white text-black cursor-pointer px-8 py-[3px] border-white border-solid border-[1px] rounded-md ">
           Register
         </button>
       </div>
