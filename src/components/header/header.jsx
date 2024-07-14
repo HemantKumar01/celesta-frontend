@@ -20,7 +20,7 @@ const Header = () => {
         </a>
         <button
           onClick={() => {
-            navigate("/");
+            navigate("/login");
           }}
           className="cursor-pointer px-8 py-[3px] border-white border-solid border-[1px] rounded-md"
         >
