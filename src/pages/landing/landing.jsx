@@ -6,7 +6,7 @@ const HeroSection = () => {
       className={`w-full h-screen overflow-hidden bg-[url('/hero_image.png')] bg-[length:140%] bg-top bg-no-repeat sm:bg-cover sm:bg-[center_top_20%]`}
     >
       <div
-        className="w-full h-full relative"
+        className="w-full h-full relative bg-contain"
         style={{
           background:
             "linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.00) 49.8%, rgba(23, 6, 28, 0.00) 90%, #2F0C39 100%), rgba(0, 0, 0, 0.25)",
@@ -21,7 +21,7 @@ const HeroSection = () => {
               className="theme gradient-text text-5xl md:text-8xl font-bold text-center min-h-[1.1em]"
               style={{
                 backgroundImage:
-                  "linear-gradient( 90deg, #ffac88 1.08%, #d197ff 47.47%,#8c8aff 94.79%  )",
+                  "linear-gradient( 90deg, #ffac88 1.08%, #d197ff 47.47%,#8c8aff 94.79% )",
               }}
             >
               Exploring The Epochs
