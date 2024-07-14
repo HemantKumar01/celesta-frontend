@@ -3,7 +3,7 @@ import Header from "@/components/header/header";
 const HeroSection = () => {
   return (
     <div
-      className={`w-full h-screen overflow-hidden bg-[url('/hero_image.png')] bg-[length:140%] bg-top bg-no-repeat sm:bg-cover sm:bg-[center_top_20%]`}
+      className={`w-full h-screen overflow-hidden bg-[url('/hero_image.png')] bg-cover bg-top bg-no-repeat sm:bg-cover sm:bg-[center_top_20%]`}
     >
       <div
         className="w-full h-full relative bg-contain"
