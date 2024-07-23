@@ -1,9 +1,34 @@
+import "./landing.css";
 import Header from "@/components/header/header";
+import SkewButton from "@/components/SkewButton";
+
+const HeroButtons = () => {
+  return (
+    <div className="relative margin-auto w-[300px] sm:w-[550px] h-min max-w-[95vw] ">
+      <SkewButton
+        className="absolute left-0 top-0 w-[300px] hover:w-[331px]"
+        style={{
+          background: "linear-gradient(90deg, #FFB405 -7.98%, #E655CA 122.26%)",
+        }}
+      >
+        Login
+      </SkewButton>
+      <SkewButton
+        className="absolute left-0 sm:left-auto sm:right-0 top-[70px] sm:top-0 w-[300px] hover:w-[331px]"
+        style={{
+          background: "linear-gradient(90deg, #E655CA 0%, #5090FD 100%)",
+        }}
+      >
+        Register
+      </SkewButton>
+    </div>
+  );
+};
 
 const HeroSection = () => {
   return (
     <div
-      className={`w-full h-screen overflow-hidden bg-[url('/hero_image.png')] bg-cover bg-top bg-no-repeat sm:bg-cover sm:bg-[center_top_20%]`}
+      className={`relative w-full h-screen overflow-hidden bg-[url('/hero_image.png')] bg-cover bg-top bg-no-repeat sm:bg-cover sm:bg-[center_top_20%]`}
     >
       <div
         className="w-full h-full relative bg-contain"
@@ -26,8 +51,12 @@ const HeroSection = () => {
             >
               Exploring The Epochs
             </div>
+            <HeroButtons></HeroButtons>
           </div>
         </div>
+      </div>
+      <div className="scrollDown absolute bottom-10 left-[50%] translate-x-[-50%] w-10 h-16 border-2 border-white rounded-full p-2">
+        <div className="ball w-full aspect-square bg-white rounded-full"></div>
       </div>
     </div>
   );
