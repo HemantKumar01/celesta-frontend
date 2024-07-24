@@ -4,7 +4,7 @@ import { useNavigate } from "react-router";
 const Header = () => {
   const navigate = useNavigate();
   return (
-    <div className="fixed top-0 left-0 w-full bg-transparent px-6 py-2 h-[60px] flex justify-between z-50">
+    <div className="absolute top-0 left-0 w-full bg-transparent px-6 py-2 h-[60px] flex justify-between z-50">
       <img
         src={images.logo}
         alt="Celesta"
