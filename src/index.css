@@ -38,7 +38,9 @@ html {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 .spaceship {
   filter: drop-shadow(0 0 10px black);
 }
+
