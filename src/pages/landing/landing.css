@@ -1,0 +1,13 @@
+.scrollDown .ball {
+  animation: scroll 1.5s infinite ease-in-out;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(25px);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 0.1;
+  }
+}
