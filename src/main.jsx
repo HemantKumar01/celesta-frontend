@@ -19,15 +19,15 @@ const router = createBrowserRouter([
     element: <Login />,
   },
   {
-	  path: '/contact',
-	  element: <Contact />,
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-	<React.StrictMode>
-		<Suspense fallback={<Spinner />}>
-			<RouterProvider router={router} />
-		</Suspense>
-	</React.StrictMode>
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <Suspense fallback={<Spinner />}>
+      <RouterProvider router={router} />
+    </Suspense>
+  </React.StrictMode>
+);

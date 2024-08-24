@@ -28,11 +28,13 @@ const Header = () => {
           >
             Login
           </button>
-          <button className="bg-white text-black cursor-pointer px-8 py-[5px] border-white border-solid border-[1px] rounded-md ">
+          <button
+            onClick={() => navigate("/register")}
+            className="bg-white text-black cursor-pointer px-8 py-[5px] border-white border-solid border-[1px] rounded-md "
+          >
             Register
           </button>
         </div>
-
       </div>
     </div>
   );
