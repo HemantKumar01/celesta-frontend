@@ -10,7 +10,7 @@ const Header = () => {
         alt="Celesta"
         className="h-[40px] w-auto cursor-pointer"
       />
-      <div className="hidden md:flex justify-evenly min-w-[50%] items-center font-medium gap-2">
+      <div className="hidden md:flex justify-evenly min-w-[50%] items-center font-medium gap-0">
         <a href="/" className="cursor-pointer">
           Home
         </a>
@@ -18,17 +18,21 @@ const Header = () => {
         <a href="/events" className="cursor-pointer">
           Events
         </a>
-        <button
-          onClick={() => {
-            navigate("/");
-          }}
-          className="cursor-pointer px-8 py-[3px] border-white border-solid border-[1px] rounded-md"
-        >
-          Login
-        </button>
-        <button className="bg-white text-black cursor-pointer px-8 py-[3px] border-white border-solid border-[1px] rounded-md ">
-          Register
-        </button>
+
+        <div className="flex gap-5">
+          <button
+            onClick={() => {
+              navigate("/login");
+            }}
+            className="cursor-pointer px-8 py-[5px] border-white border-solid border-[1px] rounded-md"
+          >
+            Login
+          </button>
+          <button className="bg-white text-black cursor-pointer px-8 py-[5px] border-white border-solid border-[1px] rounded-md ">
+            Register
+          </button>
+        </div>
+
       </div>
     </div>
   );
