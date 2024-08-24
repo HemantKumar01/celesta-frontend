@@ -1,8 +1,19 @@
 import { images } from "@/constants";
 import { useNavigate } from "react-router";
 
+import { useEffect, useRef, useState } from "react";
+import DropdownMenu from "./DropDown";
+
+
+
+
+
+
 const Header = () => {
   const navigate = useNavigate();
+
+
+
   return (
     <div className="absolute top-0 left-0 w-full bg-transparent px-6 py-2 h-[60px] flex justify-between z-50">
       <img
@@ -14,7 +25,15 @@ const Header = () => {
         <a href="/" className="cursor-pointer">
           Home
         </a>
-        <a href="/">The Fest</a>
+
+
+
+        <DropdownMenu/>
+
+
+
+
+
         <a href="/events" className="cursor-pointer">
           Events
         </a>
