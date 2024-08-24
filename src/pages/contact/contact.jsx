@@ -144,17 +144,19 @@ const ContactInfo = () => {
 				/>
 				<div>
 					<h4 className='text-[18px]'>Contact Our Experts</h4>
-					<p className='text-[18px]'>Phone no. :</p>
+					<p className='text-[14px]'>Phone no. : <br /><a href="https://wa.me/919546908462?text=I%20had%20some%20queries%20related%20to%20Celesta%20Fest" target='_blank' className='text-[18px] text-blue-500'>+91 9546908462</a></p>
 				</div>
 			</div>
 			<div className='flex gap-[16px] items-center'>
 				<img src={icons.mail} alt='mail icon' className='w-[27px]' />
 				<div>
 					<h4 className='text-[18px]'>Send Us a Mail</h4>
-					<p className='text-[12px]'>
+					<p className='text-[14px]'>
 						Our friendly team is here to help you,
 						<br />
 						send us a mail at:
+						<br />
+						<a href="mailto:celesta.iitp@gmail.com" target='_blank' className='text-[18px] text-blue-500'>celesta.iitp@gmail.com</a>
 					</p>
 				</div>
 			</div>
@@ -163,28 +165,28 @@ const ContactInfo = () => {
 					Connect with us on social media:
 				</h4>
 				<div className='flex justify-around'>
-					<a href='https://www.youtube.com' target='_blank'>
+					<a href='https://youtube.com/@CelestaIITPatna' target='_blank'>
 						<img
 							src={icons.youtube}
 							alt='youtube icon'
 							className='w-[30px]'
 						/>
 					</a>
-					<a href='https://www.twitter.com' target='_blank'>
+					<a href='https://twitter.com/celesta_iitp' target='_blank'>
 						<img
 							src={icons.twitter}
 							alt='twitter icon'
 							className='w-[30px]'
 						/>
 					</a>
-					<a href='https://www.instagram.com' target='_blank'>
+					<a href='https://instagram.com/celestaiitp_official/' target='_blank'>
 						<img
 							src={icons.instagram}
 							alt='instagram icon'
 							className='w-[30px]'
 						/>
 					</a>
-					<a href='https://www.linkedin.com' target='_blank'>
+					<a href='https://linkedin.com/company/celesta-iit-patna/' target='_blank'>
 						<img
 							src={icons.linkedin}
 							alt='linkedin icon'
@@ -201,7 +203,7 @@ const Contact = () => {
 	return (
 		<div className='w-full h-screen text-[#D9D9D9] relative'>
 			<div className="w-full h-screen bg-[url('./contact_image.png')] bg-cover bg-center bg-no-repeat fixed z-[-1] top-0 left-0"></div>
-			<div className='container min-h-screen h-auto pt-[80px] md:pb-0` pb-[50px] flex md:flex-row md:justify-around md:items-start flex-col justify-start items-center gap-[20px]'>
+			<div className='container min-h-screen h-auto md:pt-[80px] pt-[100px] md:pb-0` pb-[50px] flex md:flex-row md:justify-around md:items-center flex-col justify-center items-center gap-[30px]'>
 				<Header />
 				<ContactInfo />
 				<ContactForm />
