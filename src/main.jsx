@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./index.css";
 import Spinner from "./components/spinner";
-import { LandingPage, Events } from "./pages/pages";
+import { LandingPage, Events, Login, Contact } from "./pages/pages";
 
 const router = createBrowserRouter([
   {
@@ -14,12 +14,20 @@ const router = createBrowserRouter([
     path: "/events",
     element: <Events />,
   },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+	  path: '/contact',
+	  element: <Contact />,
+  },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <Suspense fallback={<Spinner />}>
-      <RouterProvider router={router} />
-    </Suspense>
-  </React.StrictMode>
-);
+ReactDOM.createRoot(document.getElementById('root')).render(
+	<React.StrictMode>
+		<Suspense fallback={<Spinner />}>
+			<RouterProvider router={router} />
+		</Suspense>
+	</React.StrictMode>
+)

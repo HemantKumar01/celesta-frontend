@@ -18,10 +18,11 @@ const Header = () => {
         <a href="/events" className="cursor-pointer">
           Events
         </a>
+
         <div className="flex gap-5">
           <button
             onClick={() => {
-              navigate("/");
+              navigate("/login");
             }}
             className="cursor-pointer px-8 py-[5px] border-white border-solid border-[1px] rounded-md"
           >
@@ -31,6 +32,7 @@ const Header = () => {
             Register
           </button>
         </div>
+
       </div>
     </div>
   );
