@@ -99,8 +99,8 @@ const EpochsDescription = () => {
 const AncientEpoch = () => {
   return (
     <>
-      <div className="hidden md:block min-h-[120vh] w-screen bg-[#FAE5C3] p-10 py-20 relative overflow-hidden z-10">
-        <div className="background absolute right-0 bottom-0 z-10 h-min  w-screen overflow-hidden">
+      <div className="hidden md:block min-h-[min(120vh,100vw)] w-screen bg-[#FAE5C3] p-10 py-20 relative overflow-hidden z-10">
+        <div className="background absolute right-0 bottom-0 z-10 h-min  w-screen overflow-hidden ">
           <img
             src="/past_bg.png"
             alt="castle from past"
@@ -126,7 +126,7 @@ const AncientEpoch = () => {
             />
           </div>
           <h1
-            className="font-extrabold text-[#301C08] pl-5 rounded-lg py-3"
+            className="font-extrabold text-[#301C08] pl-5 rounded-lg py-3 text-wipe-in-parts"
             style={{
               fontFamily: "Lato, Poppins, sans-serif",
               borderLeft: "10px solid #301C08",
@@ -136,7 +136,7 @@ const AncientEpoch = () => {
             Ancient Epoch
           </h1>
           <p
-            className="text-[#301C08] font-regular mt-10"
+            className="text-[#301C08] font-regular mt-10 text-wipe-in-parts"
             style={{ lineHeight: "1.5", fontSize: "max(1.7vw, 1.5rem)" }}
           >
             This is the vintage era of technological advancement. These
@@ -154,7 +154,7 @@ const AncientMobile = () => {
     <>
       <div className="block md:hidden  w-screen bg-[#FAE5C3]  pt-20 relative">
         <h1
-          className="font-extrabold py-3 bg-clip-text text-center relative"
+          className="font-extrabold py-3 bg-clip-text text-center relative text-wipe-in-parts"
           style={{
             fontFamily: "Lato, Poppins, sans-serif",
             fontSize: "max(3vw, 2.3rem)",
@@ -171,7 +171,7 @@ const AncientMobile = () => {
           <img src="/ancient-mobile.png" alt="" className="w-full" />
           <Triangle style={{ background: "#301C08" }}></Triangle>
         </div>
-        <div className="content w-full p-10 py-20 bg-[#301C08] text-center text-[#F5E2C1] text-lg relative">
+        <div className="content w-full p-10 py-20 bg-[#301C08] text-center text-[#F5E2C1] text-lg relative text-wipe-in-parts">
           This is the vintage era of technological advancement. These
           gear-driven robots, composed of gears themselves, have mastered and
           enthusiastically experiment with every new concept they discover.
@@ -185,7 +185,7 @@ const AncientMobile = () => {
 const ModernEpoch = () => {
   return (
     <>
-      <div className="hidden md:block min-h-[120vh] w-screen bg-[#FFE8FF] p-10 py-20 relative overflow-hidden z-100">
+      <div className="hidden md:block min-h-[min(120vh,100vw)] w-screen bg-[#FFE8FF] p-10 py-20 relative overflow-hidden z-100">
         <div className="background absolute right-0 bottom-0 z-20 h-min  w-screen overflow-hidden">
           <img
             src="/modern_bg.png"
@@ -212,7 +212,7 @@ const ModernEpoch = () => {
             />
           </div>
           <h1
-            className="font-extrabold text-[#2E1B08] pr-5 rounded-lg py-3"
+            className="font-extrabold text-[#2E1B08] pr-5 rounded-lg py-3 text-wipe-in-parts"
             style={{
               fontFamily: "Lato, Poppins, sans-serif",
               borderRight: "10px solid #2E1B08",
@@ -222,7 +222,7 @@ const ModernEpoch = () => {
             Modern Epoch
           </h1>
           <p
-            className="text-[#2E1B08] font-regular mt-10"
+            className="text-[#2E1B08] font-regular mt-10 text-wipe-in-parts"
             style={{ lineHeight: "1.5", fontSize: "max(1.7vw, 1.5rem)" }}
           >
             {" "}
@@ -239,7 +239,7 @@ const ModernMobile = () => {
     <>
       <div className="block md:hidden w-screen bg-[#512667] pt-20 relative">
         <h1
-          className="font-extrabold py-3 bg-clip-text text-center relative"
+          className="font-extrabold py-3 bg-clip-text text-center relative text-wipe-in-parts"
           style={{
             fontFamily: "Lato, Poppins, sans-serif",
             fontSize: "max(3vw, 2.3rem)",
@@ -256,7 +256,7 @@ const ModernMobile = () => {
           <img src="/modern-mobile.png" alt="" className="w-full" />
           <Triangle style={{ background: "#512667" }}></Triangle>
         </div>
-        <div className="content w-full p-10 py-20 bg-[#512667] text-center text-[#E299FF] text-lg relative">
+        <div className="content w-full p-10 py-20 bg-[#512667] text-center text-[#E299FF] text-lg relative text-wipe-in-parts">
           In this modern era, robots look more human-like and use advanced
           technologies such as drones, hyperloops, and A.I.
           <Triangle style={{ background: "#183C8C" }}></Triangle>
@@ -268,7 +268,7 @@ const ModernMobile = () => {
 const FutureEpoch = () => {
   return (
     <>
-      <div className="hidden md:block min-h-[120vh] w-screen bg-[#85A9BF] p-10 py-20 relative overflow-hidden z-30">
+      <div className="hidden md:block min-h-[min(120vh,100vw)] w-screen bg-[#85A9BF] p-10 py-20 relative overflow-hidden z-30">
         <div className="background absolute right-0 bottom-0 z-10 h-min  w-screen overflow-hidden">
           <img
             src="/future_bg.png"
@@ -295,7 +295,7 @@ const FutureEpoch = () => {
             />
           </div>
           <h1
-            className="font-extrabold text-[#183C8C] pl-5 rounded-lg py-3"
+            className="font-extrabold text-[#183C8C] pl-5 rounded-lg py-3 text-wipe-in-parts"
             style={{
               fontFamily: "Lato, Poppins, sans-serif",
               borderLeft: "10px solid #183C8C",
@@ -305,7 +305,7 @@ const FutureEpoch = () => {
             Future Epoch
           </h1>
           <p
-            className="text-[#183C8C] font-regular mt-10"
+            className="text-[#183C8C] font-regular mt-10 text-wipe-in-parts"
             style={{ lineHeight: "1.5", fontSize: "max(1.7vw, 1.5rem)" }}
           >
             This future era of technological advancement features A.I. robots
@@ -322,7 +322,7 @@ const FutureMobile = () => {
     <>
       <div className="block md:hidden w-screen bg-[#183C8C] pt-20 relative">
         <h1
-          className="font-extrabold py-3 bg-clip-text text-center relative"
+          className="font-extrabold py-3 bg-clip-text text-center relative text-wipe-in-parts"
           style={{
             fontFamily: "Lato, Poppins, sans-serif",
             fontSize: "max(3vw, 2.3rem)",
@@ -339,7 +339,7 @@ const FutureMobile = () => {
           <img src="/future-mobile.png" alt="" className="w-full" />
           <Triangle style={{ background: "#183C8C" }}></Triangle>
         </div>
-        <div className="content w-full p-10 py-20 bg-[#183C8C] text-center text-[#5DC5E9] text-lg relative">
+        <div className="content w-full p-10 py-20 bg-[#183C8C] text-center text-[#5DC5E9] text-lg relative text-wipe-in-parts">
           This future era of technological advancement features A.I. robots
           utilizing artificial intelligence in all aspects of daily life,
           equipped with holographic technology and teleportation.
