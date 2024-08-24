@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import './header.css';
 
 function DropdownMenu() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
 
   const handleMouseEnter = () => {
@@ -32,13 +32,21 @@ function DropdownMenu() {
         The Fest
       </a>
       {isOpen && (
-        <div className="dropdown-menu" ref={menuRef}>
+        <div className="dropdown-menu" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} ref={menuRef}>
           {/* Your dropdown menu items here */}
           
-          <div href="/Contacts" >Sponsors</div>
-          <div>Gallery</div>
-          <div>Our Team</div>
+          <div>
+          <a href="/" >Sponsors</a>
+          </div>
+          <div>
+          <a href="/" >Gallery</a>
+          </div>
+          <div>
+          <a href="/" >Our Team</a>
+          </div>
+          <div>
           <a href="/contact" >Contacts</a>
+          </div>
       
 
         </div>

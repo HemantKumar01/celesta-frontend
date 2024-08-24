@@ -25,15 +25,7 @@ const Header = () => {
         <a href="/" className="cursor-pointer">
           Home
         </a>
-
-
-
         <DropdownMenu/>
-
-
-
-
-
         <a href="/events" className="cursor-pointer">
           Events
         </a>
