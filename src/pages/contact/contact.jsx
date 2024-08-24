@@ -95,7 +95,7 @@ const ContactForm = () => {
 					<label>Message:</label>
 					<textarea
 						className='text-[#000] px-[10px] py-[5px] rounded-md outline-none resize-none'
-						rows={5}
+						rows={3}
 						placeholder='Type your message here...'
 						{...register('message', {
 							required: 'Message is required',
@@ -199,8 +199,9 @@ const ContactInfo = () => {
 
 const Contact = () => {
 	return (
-		<div className="w-full h-screen bg-[url('./contact_image.png')] bg-cover bg-center bg-no-repeat text-[#D9D9D9]">
-			<div className='container h-full pt-[80px] flex sm:flex-row sm:justify-around sm:items-start flex-col justify-start items-center'>
+		<div className='w-full h-screen text-[#D9D9D9] relative'>
+			<div className="w-full h-screen bg-[url('./contact_image.png')] bg-cover bg-center bg-no-repeat fixed z-[-1] top-0 left-0"></div>
+			<div className='container min-h-screen h-auto pt-[80px] md:pb-0` pb-[50px] flex md:flex-row md:justify-around md:items-start flex-col justify-start items-center gap-[20px]'>
 				<Header />
 				<ContactInfo />
 				<ContactForm />
