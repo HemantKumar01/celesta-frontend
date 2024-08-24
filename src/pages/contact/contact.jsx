@@ -1,6 +1,7 @@
 import Header from '@/components/header/header'
 import { icons } from '@/constants'
 import { useForm } from 'react-hook-form'
+import Footer from "@/components/footer/footer";
 
 const ContactForm = () => {
 	const {
@@ -203,11 +204,12 @@ const Contact = () => {
 	return (
 		<div className='w-full h-screen text-[#D9D9D9] relative'>
 			<div className="w-full h-screen bg-[url('./contact_image.png')] bg-cover bg-center bg-no-repeat fixed z-[-1] top-0 left-0"></div>
-			<div className='container min-h-screen h-auto md:pt-[80px] pt-[100px] md:pb-0` pb-[50px] flex md:flex-row md:justify-around md:items-center flex-col justify-center items-center gap-[30px]'>
+			<div className='container min-h-screen h-auto md:pt-[80px] pt-[100px] md:mb-[40px] pb-[90px] flex md:flex-row md:justify-around md:items-center flex-col justify-center items-center gap-[30px]'>
 				<Header />
 				<ContactInfo />
 				<ContactForm />
 			</div>
+			<Footer />
 		</div>
 	)
 }
