@@ -3,6 +3,7 @@ import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import DropdownMenu from "./DropDown";
+import Navbar from './Navbar';
 
 const Header = () => {
   const navigate = useNavigate();
@@ -22,7 +23,7 @@ const Header = () => {
         <Link to="/events" className="cursor-pointer">
           Events
         </Link>
-
+        <Navbar />
         <div className="flex gap-5">
           <button
             onClick={() => {
