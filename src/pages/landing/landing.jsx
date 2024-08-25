@@ -3,6 +3,7 @@ import "./landing.css";
 import Header from "@/components/header/header";
 import SkewButton from "@/components/SkewButton";
 import { Quote } from "lucide-react";
+import { useEffect } from "react";
 
 const Triangle = ({ style }) => {
   return (
@@ -39,7 +40,7 @@ const HeroButtons = () => {
 const HeroSection = ({ children }) => {
   return (
     <div
-      className={`relative w-full h-screen overflow-hidden bg-[url('/hero_image-min.png')] bg-cover bg-top bg-no-repeat sm:bg-cover sm:bg-[center_top_20%]`}
+      className={`hero relative w-full h-screen overflow-hidden bg-[url('/hero_image-min.png')] bg-cover bg-top bg-no-repeat sm:bg-cover sm:bg-[center_top_20%]`}
     >
       <div
         className="w-full h-full relative bg-contain"
@@ -50,7 +51,7 @@ const HeroSection = ({ children }) => {
       >
         <div className="main-content w-full max-w-[90vw] absolute top-1/3 left-1/2 translate-x-[-50%] translate-y-[-50%]">
           <div className="text flexbox flex-col">
-            <div className="celesta font-medium text-l md:text-3xl tracking-[0.8ch] text-white text-center">
+            <div className="font-medium text-l md:text-3xl tracking-[0.8ch] text-white text-center">
               CELESTA
             </div>
             <div
@@ -142,7 +143,7 @@ const AncientEpoch = () => {
           >
             This is the vintage era of technological advancement. These
             gear-driven robots, composed of gears themselves, have mastered and
-            enthusiastically experiment with every new concept they discover.
+            enthusiastically experiment with every new concept they discover
           </p>
         </div>
       </div>
@@ -155,7 +156,7 @@ const AncientMobile = () => {
     <>
       <div className="block md:hidden  w-screen bg-[#FAE5C3]  pt-20 relative">
         <h1
-          className="font-extrabold py-3 bg-clip-text text-center relative text-wipe-in-parts"
+          className="font-extrabold py-3 bg-clip-text text-center relative"
           style={{
             fontFamily: "Lato, Poppins, sans-serif",
             fontSize: "max(3vw, 2.3rem)",
@@ -172,10 +173,10 @@ const AncientMobile = () => {
           <img src="/ancient-mobile.png" alt="" className="w-full" />
           <Triangle style={{ background: "#301C08" }}></Triangle>
         </div>
-        <div className="content w-full p-10 py-20 bg-[#301C08] text-center text-[#F5E2C1] text-lg relative text-wipe-in-parts">
+        <div className="content w-full p-10 py-20 bg-[#301C08] text-center text-[#F5E2C1] text-lg relative">
           This is the vintage era of technological advancement. These
           gear-driven robots, composed of gears themselves, have mastered and
-          enthusiastically experiment with every new concept they discover.
+          enthusiastically experiment with every new concept they discover
           <Triangle style={{ background: "#512667" }}></Triangle>
         </div>
       </div>
@@ -228,7 +229,7 @@ const ModernEpoch = () => {
           >
             {" "}
             In this modern era, robots look more human-like and use advanced
-            technologies such as drones, hyperloops, and A.I.
+            technologies such as drones, hyperloops, and AI
           </p>
         </div>
       </div>
@@ -240,7 +241,7 @@ const ModernMobile = () => {
     <>
       <div className="block md:hidden w-screen bg-[#512667] pt-20 relative">
         <h1
-          className="font-extrabold py-3 bg-clip-text text-center relative text-wipe-in-parts"
+          className="font-extrabold py-3 bg-clip-text text-center relative "
           style={{
             fontFamily: "Lato, Poppins, sans-serif",
             fontSize: "max(3vw, 2.3rem)",
@@ -257,9 +258,9 @@ const ModernMobile = () => {
           <img src="/modern-mobile.png" alt="" className="w-full" />
           <Triangle style={{ background: "#512667" }}></Triangle>
         </div>
-        <div className="content w-full p-10 py-20 bg-[#512667] text-center text-[#E299FF] text-lg relative text-wipe-in-parts">
+        <div className="content w-full p-10 py-20 bg-[#512667] text-center text-[#E299FF] text-lg relative ">
           In this modern era, robots look more human-like and use advanced
-          technologies such as drones, hyperloops, and A.I.
+          technologies such as drones, hyperloops, and AI
           <Triangle style={{ background: "#183C8C" }}></Triangle>
         </div>
       </div>
@@ -309,9 +310,9 @@ const FutureEpoch = () => {
             className="text-[#183C8C] font-regular mt-10 text-wipe-in-parts"
             style={{ lineHeight: "1.5", fontSize: "max(1.7vw, 1.5rem)" }}
           >
-            This future era of technological advancement features A.I. robots
-            utilizing artificial intelligence in all aspects of daily life,
-            equipped with holographic technology and teleportation.
+            This future era of technological advancement features AI robots
+            utilizing artificial intelligence in all aspects of daily life
+            equipped with holographic technology and teleportation
           </p>
         </div>
       </div>
@@ -323,7 +324,7 @@ const FutureMobile = () => {
     <>
       <div className="block md:hidden w-screen bg-[#183C8C] pt-20 relative">
         <h1
-          className="font-extrabold py-3 bg-clip-text text-center relative text-wipe-in-parts"
+          className="font-extrabold py-3 bg-clip-text text-center relative "
           style={{
             fontFamily: "Lato, Poppins, sans-serif",
             fontSize: "max(3vw, 2.3rem)",
@@ -340,16 +341,23 @@ const FutureMobile = () => {
           <img src="/future-mobile.png" alt="" className="w-full" />
           <Triangle style={{ background: "#183C8C" }}></Triangle>
         </div>
-        <div className="content w-full p-10 py-20 bg-[#183C8C] text-center text-[#5DC5E9] text-lg relative text-wipe-in-parts">
-          This future era of technological advancement features A.I. robots
-          utilizing artificial intelligence in all aspects of daily life,
-          equipped with holographic technology and teleportation.
+        <div className="content w-full p-10 py-20 bg-[#183C8C] text-center text-[#5DC5E9] text-lg relative ">
+          This future era of technological advancement features AI robots
+          utilizing artificial intelligence in all aspects of daily life
+          equipped with holographic technology and teleportation
         </div>
       </div>
     </>
   );
 };
 const LandingPage = () => {
+  let animationInjected = false;
+  useEffect(() => {
+    if (!animationInjected) {
+      textWipeInParts(0.1);
+      animationInjected = true;
+    }
+  }, []);
   return (
     <>
       <HeroSection>
@@ -365,7 +373,7 @@ const LandingPage = () => {
       <FutureEpoch></FutureEpoch>
       <FutureMobile></FutureMobile>
 
-      <Footer/>
+      <Footer />
     </>
   );
 };

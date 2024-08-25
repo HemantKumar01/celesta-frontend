@@ -1,3 +1,5 @@
+// @Copyright https://github.com/HemantKumar01
+
 /**
  * Wraps a string around each word
  *
@@ -7,7 +9,7 @@
  */
 function wrapWords(str, tmpl) {
   return str.replace(
-    /\b(\w+(?![^<>]*>))\b|\b(\w[,.!"'?;:]+(?![^<>]*>))\b|\b([,.!"'?;:]\w+(?![^<>]*>))\b/g,
+    /(\b\w+\b)|\s*([,.!?;:"'()\[\]{}-]+\s*\w+)|(\w+\s*[,.!?;:"'()\[\]{}-]+)\s*\b/g,
     tmpl || "<span>$&</span>"
   );
 }
@@ -17,6 +19,7 @@ function wrapWords(str, tmpl) {
  * @param {float} delayDuration the delay duration between appearing of adjacent words
  */
 function textWipeInParts(delayDuration = 0.2) {
+  console.log("Animation Injected");
   const elements = document.querySelectorAll(".text-wipe-in-parts");
   console.log("animated text elements", elements);
   for (var element of elements) {
@@ -26,9 +29,11 @@ function textWipeInParts(delayDuration = 0.2) {
     );
     var transitionDelayTime = 0;
     while (tmpText.includes("$TRANSITION-DELAY-TEMPLATE")) {
+      let final_delay_duration =
+        element.getAttribute("data-delay") ?? delayDuration;
       tmpText = tmpText.replace(
         "$TRANSITION-DELAY-TEMPLATE",
-        (transitionDelayTime * delayDuration).toFixed(4) + "s"
+        (transitionDelayTime * final_delay_duration).toFixed(4) + "s"
       );
       transitionDelayTime++;
     }

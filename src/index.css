@@ -39,9 +39,20 @@ html {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 .spaceship {
   filter: drop-shadow(0 0 10px black);
 }
 
+.hero .main-content .celesta {
+  animation: celesta-header 1s ease-in-out backwards;
+}
+
+@keyframes celesta-header {
+  0% {
+    letter-spacing: 0;
+  }
+  100% {
+    letter-spacing: 0.8ch;
+  }
+}
