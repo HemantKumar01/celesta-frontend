@@ -1,6 +1,7 @@
 import Header from '@/components/header/header'
 import { icons } from '@/constants'
 import { useForm } from 'react-hook-form'
+import './contact.css'
 
 const ContactForm = () => {
 	const {
@@ -21,7 +22,10 @@ const ContactForm = () => {
 
 	return (
 		<form onSubmit={handleSubmit(onSubmit)}>
-			<div className='bg-[#000] bg-opacity-[0.70] px-7 py-4 flex flex-col gap-[10px] w-fit rounded-[2rem]'>
+			<div 
+			className='bg-[#000] bg-opacity-[0.70] px-7 py-4 flex flex-col gap-[10px] w-fit rounded-[2rem]'
+				// className='container'
+			>
 				<h2 className='text-[30px]'>Fill The Support Form</h2>
 				<div className='flex flex-col relative'>
 					<label>Name:</label>
