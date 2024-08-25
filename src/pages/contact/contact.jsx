@@ -224,7 +224,7 @@ const ContactInfo = () => {
 
 const Contact = () => {
 	return (
-		<div className="w-full min-h-screen h-auto text-[#D9D9D9] relative bg-[url('./contact_image.png')] bg-cover bg-center bg-no-repeat">
+		<div className="w-full min-h-screen h-auto text-[#D9D9D9] relative bg-[url('/contact_image.png')] bg-cover bg-center bg-no-repeat">
 			<Header />
 			<div className='min-h-screen flex justify-center items-center md:pt-[80px] pt-[100px] md:mb-[60px] mb-[80px]'>
 				<div className='container flex md:flex-row md:justify-around md:items-start flex-col justify-start items-center gap-[50px]'>
