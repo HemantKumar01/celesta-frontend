@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/footer";
 import "./landing.css";
 import Header from "@/components/header/header";
 import SkewButton from "@/components/SkewButton";
@@ -363,6 +364,8 @@ const LandingPage = () => {
 
       <FutureEpoch></FutureEpoch>
       <FutureMobile></FutureMobile>
+
+      <Footer/>
     </>
   );
 };
