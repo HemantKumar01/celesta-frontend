@@ -26,14 +26,16 @@ const Header = () => {
         <div className="flex gap-5">
           <button
             onClick={() => {
-              navigate("/login");
+              alert("Too Early for the Fest. The Fest will be live soon");
             }}
             className="cursor-pointer px-8 py-[5px] border-white border-solid border-[1px] rounded-md"
           >
             Login
           </button>
           <button
-            onClick={() => navigate("/register")}
+            onClick={() => {
+              alert("Too Early for the Fest. The Fest will be live soon");
+            }}
             className="bg-white text-black cursor-pointer px-8 py-[5px] border-white border-solid border-[1px] rounded-md "
           >
             Register
