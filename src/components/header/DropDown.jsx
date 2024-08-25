@@ -1,5 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react';
-import './header.css';
+import React, { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
+import "./header.css";
 
 function DropdownMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,35 +21,43 @@ function DropdownMenu() {
   };
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
   return (
     <div className="dropdown">
-      <a href="/" className="dropdown-toggle" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <Link
+        to="/"
+        className="dropdown-toggle"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
         The Fest
-      </a>
+      </Link>
       {isOpen && (
-        <div className="dropdown-menu" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} ref={menuRef}>
+        <div
+          className="dropdown-menu"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          ref={menuRef}
+        >
           {/* Your dropdown menu items here */}
-          
-          <div>
-          <a href="/" >Sponsors</a>
-          </div>
-          <div>
-          <a href="/" >Gallery</a>
-          </div>
-          <div>
-          <a href="/" >Our Team</a>
-          </div>
-          <div>
-          <a href="/contact" >Contacts</a>
-          </div>
-      
 
+          <div>
+            <Link to="/">Sponsors</Link>
+          </div>
+          <div>
+            <Link to="/">Gallery</Link>
+          </div>
+          <div>
+            <Link to="/">Our Team</Link>
+          </div>
+          <div>
+            <Link to="/contact">Contacts</Link>
+          </div>
         </div>
       )}
     </div>
