@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
 
@@ -47,7 +47,7 @@ function DropdownMenu() {
           {/* Your dropdown menu items here */}
 
           <div>
-            <Link to="/">Sponsors</Link>
+            <Link to="/sponsors">Sponsors</Link>
           </div>
           <div>
             <Link to="/">Gallery</Link>
