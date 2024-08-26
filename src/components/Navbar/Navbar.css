@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 4ddd7eba58fc60b311b947076621c0da9626bc2b
 .navbar {
     background-color: #333;
     overflow: hidden;
@@ -53,10 +50,7 @@
     background-color: #575757;
   }
   
-<<<<<<< HEAD
-=======
   /* Responsive */
->>>>>>> 4ddd7eba58fc60b311b947076621c0da9626bc2b
   @media (max-width: 768px) {
     .navbar-toggle {
       display: block;

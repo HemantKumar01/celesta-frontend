@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 4ddd7eba58fc60b311b947076621c0da9626bc2b
 import React, { useState } from 'react';
 import './Navbar.css';
 
