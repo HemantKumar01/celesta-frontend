@@ -15,6 +15,13 @@ const Header = () => {
         alt="Celesta"
         className="h-[40px] w-auto cursor-pointer"
       />
+
+      {/* Mobile Navbar */}
+      <div className="flex md:hidden">
+        <Navbar />
+      </div>
+
+      
       <div className="hidden md:flex justify-evenly min-w-[50%] items-center font-medium gap-0">
         <Link to="/" className="cursor-pointer">
           Home
