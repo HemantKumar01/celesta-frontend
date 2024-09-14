@@ -49,12 +49,12 @@ function DropdownMenu() {
           <div>
             <Link to="/sponsors">Sponsors</Link>
           </div>
-          <div>
+          {/* <div>
             <Link to="/">Gallery</Link>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <Link to="/">Our Team</Link>
-          </div>
+          </div> */}
           <div>
             <Link to="/contact">Contacts</Link>
           </div>

@@ -11,3 +11,27 @@
     opacity: 0.1;
   }
 }
+
+.inverted .planet {
+	left: unset;
+	right: 0;
+}
+
+.inverted .content {
+	float: right;
+	align-items: flex-end;
+	text-align: right;
+}
+
+.inverted .spaceship {
+	transform: translate(calc(-500px + 15vw), -40%) !important;
+	right: unset;
+	left: 0;
+}
+
+.inverted h1 {
+	padding-left: 0;
+	padding-right: 20px;
+	border-left: 0 !important;
+	border-right: 10px solid #2E1B08;
+}

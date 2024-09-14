@@ -9,8 +9,8 @@
  */
 function wrapWords(str, tmpl) {
   return str.replace(
-    /(\b\w+\b)|\s*([,.!?;:"'()\[\]{}-]+\s*\w+)|(\w+\s*[,.!?;:"'()\[\]{}-]+)\s*\b/g,
-    tmpl || "<span>$&</span>"
+    /\w+[,.!?;:"'()\&\[\]{}-]*\w*\s*/g,
+    tmpl || "<span>$&</span> "
   );
 }
 
@@ -23,9 +23,10 @@ function textWipeInParts(delayDuration = 0.2) {
   const elements = document.querySelectorAll(".text-wipe-in-parts");
   console.log("animated text elements", elements);
   for (var element of elements) {
+	element.classList.toggle(".text-wipe-in-parts");
     var tmpText = wrapWords(
       element.innerHTML,
-      "<span class='text-wipe-in-parts-word' style='transition-delay:$TRANSITION-DELAY-TEMPLATE;'>$&</span>"
+      "<span class='text-wipe-in-parts-word' style='transition-delay:$TRANSITION-DELAY-TEMPLATE;'>$&</span> "
     );
     var transitionDelayTime = 0;
     while (tmpText.includes("$TRANSITION-DELAY-TEMPLATE")) {

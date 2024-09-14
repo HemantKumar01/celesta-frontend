@@ -149,11 +149,11 @@ const ContactInfo = () => {
 					<p className='text-[14px]'>
 						Phone no. : <br />
 						<a
-							href='https://wa.me/919546908462?text=I%20had%20some%20queries%20related%20to%20Celesta%20Fest'
+							href='https://wa.me/918178075050?text=I%20had%20some%20queries%20related%20to%20Celesta%20Fest'
 							target='_blank'
 							className='text-[18px] text-blue-500'
 						>
-							+91 9546908462
+							+91 8178075050
 						</a>
 					</p>
 				</div>

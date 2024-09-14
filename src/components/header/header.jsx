@@ -14,16 +14,22 @@ const Header = () => {
         alt="Celesta"
         className="h-[40px] w-auto cursor-pointer"
       />
-      <div className="hidden md:flex justify-evenly min-w-[50%] items-center font-medium gap-0">
+      <div className="hidden md:flex justify-evenly min-w-[50%] items-center font-medium gap-5">
         <Link to="/" className="cursor-pointer">
           Home
         </Link>
-        <DropdownMenu />
-        <Link to="/events" className="cursor-pointer">
-          Events
+        {/* <DropdownMenu /> */}
+        <Link to="/sponsors" className="cursor-pointer">
+          Sponsors
         </Link>
+		<Link to="/contact" className="cursor-pointer">
+          Contact Us
+        </Link>
+		{/* <Link to="/events" className="cursor-pointer">
+          Events
+        </Link> */}
 
-        <div className="flex gap-5">
+        {/* <div className="flex gap-5">
           <button
             onClick={() => {
               alert("Too Early for the Fest. The Fest will be live soon");
@@ -40,7 +46,7 @@ const Header = () => {
           >
             Register
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
