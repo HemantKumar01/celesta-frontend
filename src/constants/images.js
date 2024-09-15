@@ -16,6 +16,17 @@ import spons14 from "/public/sponsors_images/spons14.png";
 import spons15 from "/public/sponsors_images/spons15.png";
 import spons16 from "/public/sponsors_images/spons16.png";
 import spons17 from "/public/sponsors_images/spons17.png";
+import coord1 from "/public/team_images/coord1.jpg";
+import coord2 from "/public/team_images/coord2.jpg";
+import coord3 from "/public/team_images/coord3.jpg";
+import coord4 from "/public/team_images/coord4.jpg";
+import subcoord1 from "/public/team_images/subcoord1.jpg";
+import subcoord2 from "/public/team_images/subcoord2.png";
+import subcoord3 from "/public/team_images/subcoord3.jpg";
+import subcoord4 from "/public/team_images/subcoord4.jpg";
+import subcoord5 from "/public/team_images/subcoord5.jpg";
+import subcoord6 from "/public/team_images/subcoord6.jpg";
+import subcoord7 from "/public/team_images/subcoord7.png";
 
 const SponsorsImages = [
 	{ image: spons1, name: "BRPNNL Bihar", href: "https://brpnnl.bihar.gov.in/" },
@@ -37,9 +48,27 @@ const SponsorsImages = [
 	{ image: spons17, name: "Amalfi Grand", href: "https://www.amalfigrand.com/index.html" },
 ];
 
+const CoordsImages = [
+	{ image: coord1, name: "Harpranav Uppal", position: "Coordinator" },
+	{ image: coord2, name: "Harshvardhan Singh", position: "Coordinator" },
+	{ image: coord3, name: "Aryan", position: "Coordinator" },
+	{ image: coord4, name: "Kanishk Singhal", position: "Coordinator" },];
+
+	const SubCoordsImages = [
+	{ image: subcoord1, name: "Hemant Kumar", position: "Sub-Coordinator" },
+	{ image: subcoord2, name: "Bibhuti Jha", position: "Sub-Coordinator" },
+	{ image: subcoord3, name: "Rishi Kumar", position: "Sub-Coordinator" },
+	{ image: subcoord4, name: "Vinay Khedkar", position: "Sub-Coordinator" },
+	{ image: subcoord5, name: "Ankit Bhagat", position: "Sub-Coordinator" },
+	{ image: subcoord6, name: "Yashraj Singh Thakur", position: "Sub-Coordinator" },
+	{ image: subcoord7, name: "Devvrat Tewatia", position: "Sub-Coordinator" },
+];
+
 console.log(SponsorsImages);
 
 export default {
 	logo,
 	SponsorsImages,
+	CoordsImages,
+	SubCoordsImages,
 };
