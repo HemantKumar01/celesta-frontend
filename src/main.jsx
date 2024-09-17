@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./index.css";
 import Spinner from "./components/spinner";
-import { LandingPage, EventsPage, Login, Contact, Sponsors } from "./pages/pages";
+import { LandingPage, EventsPage, Login, Contact, Sponsors, Gallery } from "./pages/pages";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/sponsors",
     element: <Sponsors />,
+  },
+  {
+    path: "/gallery",
+    element: <Gallery />,
   },
 ]);
 
