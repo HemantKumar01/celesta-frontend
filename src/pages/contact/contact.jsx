@@ -1,8 +1,8 @@
-import Navbar from '@/components/Navbar/Navbar'
-import { icons } from '@/constants'
-import { useForm } from 'react-hook-form'
-import './contact.css'
-import Footer from '@/components/footer/footer'
+import Navbar from '@/components/Navbar/Navbar';
+import { icons } from '@/constants';
+import { useForm } from 'react-hook-form';
+import './contact.css';
+import Footer from '@/components/footer/footer';
 
 const ContactForm = () => {
 	const {
@@ -10,16 +10,16 @@ const ContactForm = () => {
 		handleSubmit,
 		reset,
 		formState: { errors },
-	} = useForm()
+	} = useForm();
 
 	const onSubmit = (data) => {
-		console.log(data)
-		reset()
-	}
+		console.log(data);
+		reset();
+	};
 
 	const handleReset = () => {
-		reset()
-	}
+		reset();
+	};
 
 	return (
 		<form onSubmit={handleSubmit(onSubmit)}>
@@ -37,9 +37,7 @@ const ContactForm = () => {
 					/>
 					<div className='h-[24px]'>
 						{errors.name && (
-							<p className='text-red-500 text-[14px]'>
-								{errors.name.message}
-							</p>
+							<p className='text-red-500 text-[14px]'>{errors.name.message}</p>
 						)}
 					</div>
 				</div>
@@ -58,9 +56,7 @@ const ContactForm = () => {
 					/>
 					<div className='h-[24px]'>
 						{errors.email && (
-							<p className='text-red-500 text-[14px]'>
-								{errors.email.message}
-							</p>
+							<p className='text-red-500 text-[14px]'>{errors.email.message}</p>
 						)}
 					</div>
 				</div>
@@ -87,9 +83,7 @@ const ContactForm = () => {
 					/>
 					<div className='h-[24px]'>
 						{errors.number && (
-							<p className='text-red-500 text-[14px]'>
-								{errors.number.message}
-							</p>
+							<p className='text-red-500 text-[14px]'>{errors.number.message}</p>
 						)}
 					</div>
 				</div>
@@ -105,9 +99,7 @@ const ContactForm = () => {
 					/>
 					<div className='h-[24px]'>
 						{errors.message && (
-							<p className='text-red-500 text-[14px]'>
-								{errors.message.message}
-							</p>
+							<p className='text-red-500 text-[14px]'>{errors.message.message}</p>
 						)}
 					</div>
 				</div>
@@ -125,8 +117,8 @@ const ContactForm = () => {
 				</button>
 			</div>
 		</form>
-	)
-}
+	);
+};
 
 const ContactInfo = () => {
 	return (
@@ -139,11 +131,7 @@ const ContactInfo = () => {
 				</p>
 			</div>
 			<div className='flex gap-[16px] items-center'>
-				<img
-					src={icons.phone}
-					alt='phone calling icon'
-					className='w-[28px]'
-				/>
+				<img src={icons.phone} alt='phone calling icon' className='w-[28px]' />
 				<div>
 					<h4 className='text-[18px]'>Contact Our Experts</h4>
 					<p className='text-[14px]'>
@@ -178,49 +166,25 @@ const ContactInfo = () => {
 				</div>
 			</div>
 			<div className='flex flex-col gap-[20px]'>
-				<h4 className='text-[18px]'>
-					Connect with us on social media:
-				</h4>
+				<h4 className='text-[18px]'>Connect with us on social media:</h4>
 				<div className='flex justify-around'>
 					<a href='https://youtube.com/@CelestaIITPatna' target='_blank'>
-						<img
-							src={icons.youtube}
-							alt='youtube icon'
-							className='w-[30px]'
-						/>
+						<img src={icons.youtube} alt='youtube icon' className='w-[30px]' />
 					</a>
 					<a href='https://twitter.com/celesta_iitp' target='_blank'>
-						<img
-							src={icons.twitter}
-							alt='twitter icon'
-							className='w-[30px]'
-						/>
+						<img src={icons.twitter} alt='twitter icon' className='w-[30px]' />
 					</a>
-					<a
-						href='https://instagram.com/celestaiitp_official/'
-						target='_blank'
-					>
-						<img
-							src={icons.instagram}
-							alt='instagram icon'
-							className='w-[30px]'
-						/>
+					<a href='https://instagram.com/celestaiitp_official/' target='_blank'>
+						<img src={icons.instagram} alt='instagram icon' className='w-[30px]' />
 					</a>
-					<a
-						href='https://linkedin.com/company/celesta-iit-patna/'
-						target='_blank'
-					>
-						<img
-							src={icons.linkedin}
-							alt='linkedin icon'
-							className='w-[30px]'
-						/>
+					<a href='https://linkedin.com/company/celesta-iit-patna/' target='_blank'>
+						<img src={icons.linkedin} alt='linkedin icon' className='w-[30px]' />
 					</a>
 				</div>
 			</div>
 		</div>
-	)
-}
+	);
+};
 
 const Contact = () => {
 	return (
@@ -234,7 +198,7 @@ const Contact = () => {
 			</div>
 			<Footer />
 		</div>
-	)
-}
+	);
+};
 
-export default Contact
+export default Contact;

@@ -1,60 +1,100 @@
-import "./footer.css";
-import { Link } from "react-router-dom";
+import './footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
-  return (
-    <footer className="lg:h-[250px] h-[350px] bg-transparent relative top-[-48px] z-[100]">
-      <div className="w-44 sm:w-1/3 h-12 bg-[#3A3A3A] polygon translate-y-[1px]"></div>
-      <div className=" bg-[#3A3A3A] flex flex-col lg:flex-row justify-evenly items-center h-full ">
-        <div className="flex flex-col gap-4">
-          <div className="flex gap-5 items-center justify-center">
-            <div>
-              <p className="text-[22px] sm:text-[40px] tracking-[4px]">
-                Celesta
-              </p>
-            </div>
-            <div className="w-[2px] h-[40px] bg-white"></div>
-            <div>
-              <p className="text-[15px] sm:text-xl">
-                Exploring The <br /> Epochs
-              </p>
-            </div>
-          </div>
-          <div className="flex items-center justify-center lg:justify-start gap-5 ">
-            <a href="https://youtube.com/@CelestaIITPatna">
-              <img className="h-[25px]" src="/youtube.svg" alt="youtube" />
-            </a>
-            <a href="https://twitter.com/celesta_iitp">
-              <img className="h-[25px]" src="/twitter.svg" alt="twitter" />
-            </a>
-            <a href="https://instagram.com/celestaiitp_official/">
-              <img className="h-[25px]" src="/instagram.svg" alt="instagram" />
-            </a>
-            <a href="https://linkedin.com/company/celesta-iit-patna/">
-              <img className="h-[25px]" src="/linkedin.svg" alt="linkedin" />
-            </a>
-          </div>
-        </div>
+	return (
+		<footer className='lg:h-[250px] h-[350px] bg-transparent relative top-[-48px] z-[100]'>
+			<div className='w-44 sm:w-1/3 h-12 bg-[#3A3A3A] polygon translate-y-[1px]'></div>
+			<div className=' bg-[#3A3A3A] flex flex-col lg:flex-row justify-evenly items-center h-full '>
+				<div className='flex flex-col gap-4'>
+					<div className='flex gap-5 items-center justify-center'>
+						<div>
+							<p className='text-[22px] sm:text-[40px] tracking-[4px]'>Celesta</p>
+						</div>
+						<div className='w-[2px] h-[40px] bg-white'></div>
+						<div>
+							<p className='text-[15px] sm:text-xl'>
+								Exploring The <br /> Epochs
+							</p>
+						</div>
+					</div>
+					<div className='flex items-center justify-center lg:justify-start gap-5 '>
+						<a href='https://youtube.com/@CelestaIITPatna'>
+							<img className='h-[25px]' src='/youtube.svg' alt='youtube' />
+						</a>
+						<a href='https://twitter.com/celesta_iitp'>
+							<img className='h-[25px]' src='/twitter.svg' alt='twitter' />
+						</a>
+						<a href='https://instagram.com/celestaiitp_official/'>
+							<img className='h-[25px]' src='/instagram.svg' alt='instagram' />
+						</a>
+						<a href='https://linkedin.com/company/celesta-iit-patna/'>
+							<img className='h-[25px]' src='/linkedin.svg' alt='linkedin' />
+						</a>
+					</div>
+				</div>
 
-        <div className="hidden lg:flex flex-col">
-          <p className="text-[25px]">Links</p>
-          <div className="text-lg flex flex-col">
-            <Link to="/" onClick={()=>{window.scrollTo(0,0)}}>Home</Link>
-            <Link to="/events" onClick={()=>{window.scrollTo(0,0)}}>Events</Link>
-            <Link to="/gallery" onClick={()=>{window.scrollTo(0,0)}}>Gallery</Link>
-          </div>
-        </div>
+				<div className='hidden lg:flex flex-col'>
+					<p className='text-[25px]'>Links</p>
+					<div className='text-lg flex flex-col'>
+						<Link
+							to='/'
+							onClick={() => {
+								window.scrollTo(0, 0);
+							}}
+						>
+							Home
+						</Link>
+						<Link
+							to='/events'
+							onClick={() => {
+								window.scrollTo(0, 0);
+							}}
+						>
+							Events
+						</Link>
+						<Link
+							to='/gallery'
+							onClick={() => {
+								window.scrollTo(0, 0);
+							}}
+						>
+							Gallery
+						</Link>
+					</div>
+				</div>
 
-        <div className="hidden lg:flex flex-col">
-          <p className="text-[25px]">Information</p>
-          <div className="text-lg flex flex-col">
-            <Link to="/contact" onClick={()=>{window.scrollTo(0,0)}}>Contact Us</Link>
-            <Link to="/sponsors" onClick={()=>{window.scrollTo(0,0)}}>Sponsors</Link>
-            <Link to="/team" onClick={()=>{window.scrollTo(0,0)}}>Team</Link>
-          </div>
-        </div>
+				<div className='hidden lg:flex flex-col'>
+					<p className='text-[25px]'>Information</p>
+					<div className='text-lg flex flex-col'>
+						<Link
+							to='/contact'
+							onClick={() => {
+								window.scrollTo(0, 0);
+							}}
+						>
+							Contact Us
+						</Link>
+						<Link
+							to='/sponsors'
+							onClick={() => {
+								window.scrollTo(0, 0);
+							}}
+						>
+							Sponsors
+						</Link>
+						<Link
+							to='/team'
+							onClick={() => {
+								window.scrollTo(0, 0);
+							}}
+						>
+							Team
+						</Link>
+					</div>
+				</div>
 
-        {/* <div className="flex lg:flex-col gap-5">
+				{/* <div className="flex lg:flex-col gap-5">
           <button
             onClick={() => {
               alert("Too Early for the Fest. The Fest will be live soon");
@@ -69,25 +109,67 @@ const Footer = () => {
             Register
           </button>
         </div> */}
-        <div className="lg:hidden flex gap-12 text-[16px] font-[300] tracking-[0.8px]">
-          <div>
-            <div className="text-lg flex flex-col">
-              <Link to="/" onClick={()=>{window.scrollTo(0,0)}}>Home</Link>
-              <Link to="/events" onClick={()=>{window.scrollTo(0,0)}}>Events</Link>
-              <Link to="/gallery" onClick={()=>{window.scrollTo(0,0)}}>Gallery</Link>
-            </div>
-          </div>
-          <div>
-            <div className="text-lg flex flex-col">
-              <Link to="/contact" onClick={()=>{window.scrollTo(0,0)}}>Contact Us</Link>
-              <Link to="/sponsors" onClick={()=>{window.scrollTo(0,0)}}>Sponsors</Link>
-              <Link to="/team" onClick={()=>{window.scrollTo(0,0)}}>Team</Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
+				<div className='lg:hidden flex gap-12 text-[16px] font-[300] tracking-[0.8px]'>
+					<div>
+						<div className='text-lg flex flex-col'>
+							<Link
+								to='/'
+								onClick={() => {
+									window.scrollTo(0, 0);
+								}}
+							>
+								Home
+							</Link>
+							<Link
+								to='/events'
+								onClick={() => {
+									window.scrollTo(0, 0);
+								}}
+							>
+								Events
+							</Link>
+							<Link
+								to='/gallery'
+								onClick={() => {
+									window.scrollTo(0, 0);
+								}}
+							>
+								Gallery
+							</Link>
+						</div>
+					</div>
+					<div>
+						<div className='text-lg flex flex-col'>
+							<Link
+								to='/contact'
+								onClick={() => {
+									window.scrollTo(0, 0);
+								}}
+							>
+								Contact Us
+							</Link>
+							<Link
+								to='/sponsors'
+								onClick={() => {
+									window.scrollTo(0, 0);
+								}}
+							>
+								Sponsors
+							</Link>
+							<Link
+								to='/team'
+								onClick={() => {
+									window.scrollTo(0, 0);
+								}}
+							>
+								Team
+							</Link>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	);
 };
 
 export default Footer;

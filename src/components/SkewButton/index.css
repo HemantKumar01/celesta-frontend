@@ -1,4 +1,4 @@
 .SkewButton {
-  clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 25% 100%);
-  transition: 0.25s;
+	clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 25% 100%);
+	transition: 0.25s;
 }
