@@ -1,6 +1,6 @@
 /* Gallery container with fixed background and scrollability */
 .gallery-container {
-    background: url("./SponsBG3.png") no-repeat center center;
+    background: url("/SponsBG3.png") no-repeat center center;
     background-size: cover;
     background-attachment: fixed; /* Keeps the background fixed on scroll */
     min-height: 100vh; /* Full viewport height */
