@@ -7,7 +7,7 @@ function Dropdown() {
 	const menuRef = useRef(null);
 
 	const handleMouseEnter = () => {
-		setIsOpen(current => !current);
+		setIsOpen(true);
 	};
 
 	const handleMouseLeave = () => {
@@ -28,7 +28,7 @@ function Dropdown() {
 	}, []);
 
 	return (
-		<div className="dropdown" onClick={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+		<div className="dropdown" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
 			<Link to="/" className="dropdown-toggle">
 				The Fest
 			</Link>
