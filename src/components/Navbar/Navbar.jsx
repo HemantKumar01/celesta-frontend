@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Dropdown from "./Dropdown"; // Importing DropdownMenu
+import Dropdown from "./DropDown"; // Importing DropdownMenu
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
