@@ -1,11 +1,11 @@
 import Footer from "@/components/footer/footer";
-import Header from "@/components/header/header";
+import Navbar from "@/components/Navbar/Navbar";
 import images from "@/constants/images";
 
 export default function Sponsors() {
 	return (
 		<div className="w-full h-screen text-[#D9D9D9] relative">
-			<Header />
+			<Navbar />
 			<div className="w-full h-screen bg-[url('/SponsBG.jpeg')] bg-cover bg-center bg-no-repeat fixed z-[-1] top-0 left-0"></div>
 			<div className="mb-12 container min-h-screen h-auto pt-[80px] md:pb-0` pb-[50px] flex md:flex-row md:justify-around md:items-start flex-col justify-start items-center gap-[20px]">
 				<SponsorsMain />

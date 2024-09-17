@@ -1,6 +1,6 @@
 import Footer from "@/components/footer/footer";
 import "./landing.css";
-import Header from "@/components/header/header";
+import Navbar from "@/components/Navbar/Navbar";
 import SkewButton from "@/components/SkewButton";
 import { Quote } from "lucide-react";
 import { useEffect } from "react";
@@ -149,7 +149,7 @@ const LandingPage = () => {
 	return (
 		<>
 			<HeroSection>
-				<Header />
+				<Navbar />
 			</HeroSection>
 			<EpochsDescription />
 
