@@ -1,5 +1,5 @@
 import Footer from "@/components/footer/footer";
-import Header from "@/components/header/header";
+import Navbar from "@/components/navbar/navbar";
 
 const HeroSection = ({ children }) => {
 	return (
@@ -40,7 +40,7 @@ const EventsPage = () => {
 	return (
 		<>
 			<HeroSection>
-				<Header />
+				<Navbar />
 			</HeroSection>
 			<Footer />
 		</>
