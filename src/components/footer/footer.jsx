@@ -1,9 +1,7 @@
-import { useNavigate } from "react-router";
 import "./footer.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const navigate = useNavigate();
   return (
     <footer className="lg:h-[250px] h-[350px] bg-transparent relative top-[-48px] z-[100]">
       <div className="w-44 sm:w-1/3 h-12 bg-[#3A3A3A] polygon translate-y-[1px]"></div>
@@ -41,47 +39,49 @@ const Footer = () => {
         <div className="hidden lg:flex flex-col">
           <p className="text-[25px]">Links</p>
           <div className="text-lg flex flex-col">
-            <Link to="/">Home</Link>
-            <Link to="/events">Events</Link>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/" onClick={()=>{window.scrollTo(0,0)}}>Home</Link>
+            <Link to="/events" onClick={()=>{window.scrollTo(0,0)}}>Events</Link>
+            <Link to="/gallery" onClick={()=>{window.scrollTo(0,0)}}>Gallery</Link>
           </div>
         </div>
 
         <div className="hidden lg:flex flex-col">
           <p className="text-[25px]">Information</p>
           <div className="text-lg flex flex-col">
-            <Link to="/contact">Contact Us</Link>
-            <Link to="/sponsors">Sponsors</Link>
-            <Link to="/team">Team</Link>
+            <Link to="/contact" onClick={()=>{window.scrollTo(0,0)}}>Contact Us</Link>
+            <Link to="/sponsors" onClick={()=>{window.scrollTo(0,0)}}>Sponsors</Link>
+            <Link to="/team" onClick={()=>{window.scrollTo(0,0)}}>Team</Link>
           </div>
         </div>
 
-        <div className="flex lg:flex-col gap-5">
+        {/* <div className="flex lg:flex-col gap-5">
           <button
             onClick={() => {
-              navigate("/login");
+              alert("Too Early for the Fest. The Fest will be live soon");
             }}
             className="w-[120px] h-[50px] sm:h-[55px] sm:w-[200px] text-[16px] text-center font-[500] sm:text-[22px] cursor-pointer py-[5px] border-white border-solid border-[1px] rounded-md"
           >
             Login
           </button>
-          <button className="w-[120px] h-[50px] sm:h-[55px] sm:w-[200px] text-[16px] text-center font-[500] sm:text-[22px] bg-white text-black cursor-pointer py-[5px] border-white border-solid border-[1px] rounded-md ">
+          <button onClick={() => {
+              alert("Too Early for the Fest. The Fest will be live soon");
+            }} className="w-[120px] h-[50px] sm:h-[55px] sm:w-[200px] text-[16px] text-center font-[500] sm:text-[22px] bg-white text-black cursor-pointer py-[5px] border-white border-solid border-[1px] rounded-md ">
             Register
           </button>
-        </div>
+        </div> */}
         <div className="lg:hidden flex gap-12 text-[16px] font-[300] tracking-[0.8px]">
           <div>
             <div className="text-lg flex flex-col">
-              <Link to="/">Home</Link>
-              <Link to="/events">Events</Link>
-              <Link to="/gallery">Gallery</Link>
+              <Link to="/" onClick={()=>{window.scrollTo(0,0)}}>Home</Link>
+              <Link to="/events" onClick={()=>{window.scrollTo(0,0)}}>Events</Link>
+              <Link to="/gallery" onClick={()=>{window.scrollTo(0,0)}}>Gallery</Link>
             </div>
           </div>
           <div>
             <div className="text-lg flex flex-col">
-              <Link to="/contact">Contact Us</Link>
-              <Link to="/sponsors">Sponsors</Link>
-              <Link to="/team">Team</Link>
+              <Link to="/contact" onClick={()=>{window.scrollTo(0,0)}}>Contact Us</Link>
+              <Link to="/sponsors" onClick={()=>{window.scrollTo(0,0)}}>Sponsors</Link>
+              <Link to="/team" onClick={()=>{window.scrollTo(0,0)}}>Team</Link>
             </div>
           </div>
         </div>
