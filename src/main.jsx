@@ -3,17 +3,17 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./index.css";
 import Spinner from "./components/spinner";
-import { LandingPage, Events, Login, Contact, Sponsors} from "./pages/pages";
+import { LandingPage, EventsPage, Login, Contact, Sponsors } from "./pages/pages";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <LandingPage />,
   },
-//   {
-//     path: "/events",
-//     element: <Events />,
-//   },
+  {
+    path: "/events",
+    element: <EventsPage />,
+  },
 //   {
 //     path: "/login",
 //     element: <Login />,
