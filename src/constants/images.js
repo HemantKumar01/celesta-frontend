@@ -16,17 +16,42 @@ import spons14 from "/public/sponsors_images/spons14.png";
 import spons15 from "/public/sponsors_images/spons15.png";
 import spons16 from "/public/sponsors_images/spons16.png";
 import spons17 from "/public/sponsors_images/spons17.png";
-import coord1 from "/public/team_images/coord1.jpg";
-import coord2 from "/public/team_images/coord2.jpg";
-import coord3 from "/public/team_images/coord3.jpg";
-import coord4 from "/public/team_images/coord4.jpg";
-import subcoord1 from "/public/team_images/subcoord1.jpg";
-import subcoord2 from "/public/team_images/subcoord2.png";
-import subcoord3 from "/public/team_images/subcoord3.jpg";
-import subcoord4 from "/public/team_images/subcoord4.jpg";
-import subcoord5 from "/public/team_images/subcoord5.jpg";
-import subcoord6 from "/public/team_images/subcoord6.jpg";
-import subcoord7 from "/public/team_images/subcoord7.png";
+import dev_coord1 from "/public/team_images/dev_team/coord1.jpg";
+import dev_coord2 from "/public/team_images/dev_team/coord2.jpg";
+import dev_coord3 from "/public/team_images/dev_team/coord3.jpg";
+import dev_coord4 from "/public/team_images/dev_team/coord4.jpg";
+import dev_subcoord1 from "/public/team_images/dev_team/subcoord1.jpg";
+import dev_subcoord2 from "/public/team_images/dev_team/subcoord2.png";
+import dev_subcoord3 from "/public/team_images/dev_team/subcoord3.jpg";
+import dev_subcoord4 from "/public/team_images/dev_team/subcoord4.jpg";
+import dev_subcoord5 from "/public/team_images/dev_team/subcoord5.jpg";
+import dev_subcoord6 from "/public/team_images/dev_team/subcoord6.jpg";
+import dev_subcoord7 from "/public/team_images/dev_team/subcoord7.png";
+
+import events_coord1 from "/public/team_images/events_team/coord1.jpg";
+import events_coord2 from "/public/team_images/events_team/coord2.jpg";
+import events_coord3 from "/public/team_images/events_team/coord3.png";
+import events_coord4 from "/public/team_images/events_team/coord4.jpg";
+import events_coord5 from "/public/team_images/events_team/coord5.jpg";
+import events_coord6 from "/public/team_images/events_team/coord6.jpg";
+import events_coord7 from "/public/team_images/events_team/coord7.jpg";
+import events_coord8 from "/public/team_images/events_team/coord8.jpg";
+import events_subcoord1 from "/public/team_images/events_team/subcoord1.jpg";
+import events_subcoord2 from "/public/team_images/events_team/subcoord2.jpg";
+import events_subcoord3 from "/public/team_images/events_team/subcoord3.jpg";
+import events_subcoord4 from "/public/team_images/events_team/subcoord4.jpg";
+import events_subcoord5 from "/public/team_images/events_team/subcoord5.jpg";
+import events_subcoord6 from "/public/team_images/events_team/subcoord6.jpg";
+import events_subcoord7 from "/public/team_images/events_team/subcoord7.jpg";
+import events_subcoord8 from "/public/team_images/events_team/subcoord8.png";
+import events_subcoord9 from "/public/team_images/events_team/subcoord9.jpg";
+import events_subcoord10 from "/public/team_images/events_team/subcoord10.jpg";
+import events_subcoord11 from "/public/team_images/events_team/subcoord11.jpg";
+import events_subcoord12 from "/public/team_images/events_team/subcoord12.jpg";
+import events_subcoord13 from "/public/team_images/events_team/subcoord13.jpg";
+import events_subcoord14 from "/public/team_images/events_team/subcoord14.jpg";
+import events_subcoord15 from "/public/team_images/events_team/subcoord15.jpg";
+import events_subcoord16 from "/public/team_images/events_team/subcoord16.jpg";
 
 const SponsorsImages = [
 	{ image: spons1, name: "BRPNNL Bihar", href: "https://brpnnl.bihar.gov.in/" },
@@ -48,27 +73,58 @@ const SponsorsImages = [
 	{ image: spons17, name: "Amalfi Grand", href: "https://www.amalfigrand.com/index.html" },
 ];
 
-const CoordsImages = [
-	{ image: coord1, name: "Harpranav Uppal", position: "Coordinator" },
-	{ image: coord2, name: "Harshvardhan Singh", position: "Coordinator" },
-	{ image: coord3, name: "Aryan", position: "Coordinator" },
-	{ image: coord4, name: "Kanishk Singhal", position: "Coordinator" },];
+const dev_CoordsImages = [
+	{ image: dev_coord1, name: "Harpranav Uppal", position: "Coordinator" },
+	{ image: dev_coord2, name: "Harshvardhan Singh", position: "Coordinator" },
+	{ image: dev_coord3, name: "Aryan", position: "Coordinator" },
+	{ image: dev_coord4, name: "Kanishk Singhal", position: "Coordinator" },];
 
-	const SubCoordsImages = [
-	{ image: subcoord1, name: "Hemant Kumar", position: "Sub-Coordinator" },
-	{ image: subcoord2, name: "Bibhuti Jha", position: "Sub-Coordinator" },
-	{ image: subcoord3, name: "Rishi Kumar", position: "Sub-Coordinator" },
-	{ image: subcoord4, name: "Vinay Khedkar", position: "Sub-Coordinator" },
-	{ image: subcoord5, name: "Ankit Bhagat", position: "Sub-Coordinator" },
-	{ image: subcoord6, name: "Yashraj Singh Thakur", position: "Sub-Coordinator" },
-	{ image: subcoord7, name: "Devvrat Tewatia", position: "Sub-Coordinator" },
+	const dev_SubCoordsImages = [
+	{ image: dev_subcoord1, name: "Hemant Kumar", position: "Sub-Coordinator" },
+	{ image: dev_subcoord2, name: "Bibhuti Jha", position: "Sub-Coordinator" },
+	{ image: dev_subcoord3, name: "Rishi Kumar", position: "Sub-Coordinator" },
+	{ image: dev_subcoord4, name: "Vinay Khedkar", position: "Sub-Coordinator" },
+	{ image: dev_subcoord5, name: "Ankit Bhagat", position: "Sub-Coordinator" },
+	{ image: dev_subcoord6, name: "Yashraj Singh Thakur", position: "Sub-Coordinator" },
+	{ image: dev_subcoord7, name: "Devvrat Tewatia", position: "Sub-Coordinator" },
 ];
 
+const events_CoordsImages = [
+	{ image: events_coord1, name: "Mohit Kumar", position: "Coordinator" },
+	{ image: events_coord2, name: "Arti Dewangan", position: "Coordinator" },
+	{ image: events_coord3, name: "Luqman Motiwala", position: "Coordinator" },
+	{ image: events_coord4, name: "Gaurav Kumar", position: "Coordinator" },
+	{ image: events_coord5, name: "Kushal Agarwal", position: "Coordinator" },
+	{ image: events_coord6, name: "Moulik Jain", position: "Coordinator" },
+	{ image: events_coord7, name: "Krishna Teja", position: "Coordinator" },
+	{ image: events_coord8, name: "Harshita Singh", position: "Coordinator" },
+];
+
+const events_SubCoordsImages = [
+	{ image: events_subcoord1, name: "Srikant Sahoo", position: "Sub-Coordinator" },
+	{ image: events_subcoord2, name: "Rishu Kumar Singh", position: "Sub-Coordinator" },
+	{ image: events_subcoord3, name: "Ashutosh Kanojia", position: "Sub-Coordinator" },
+	{ image: events_subcoord4, name: "Arpit Raj", position: "Sub-Coordinator" },
+	{ image: events_subcoord5, name: "Tushar Shrivastav", position: "Sub-Coordinator" },
+	{ image: events_subcoord6, name: "Shubham Prakash", position: "Sub-Coordinator" },
+	{ image: events_subcoord7, name: "Tushar Garg", position: "Sub-Coordinator" },
+	{ image: events_subcoord8, name: "Nakshatra Kanchan", position: "Sub-Coordinator" },
+	{ image: events_subcoord9, name: "Simran Sarkar", position: "Sub-Coordinator" },
+	{ image: events_subcoord10, name: "Krishan Kumawat", position: "Sub-Coordinator" },
+	{ image: events_subcoord11, name: "Shashank Deep", position: "Sub-Coordinator" },
+	{ image: events_subcoord12, name: "Archita Suchi", position: "Sub-Coordinator" },
+	{ image: events_subcoord13, name: "Dinkar Anand", position: "Sub-Coordinator" },
+	{ image: events_subcoord14, name: "Abhinandan Porwal", position: "Sub-Coordinator" },
+	{ image: events_subcoord15, name: "Viraj Kulkarni", position: "Sub-Coordinator" },
+	{ image: events_subcoord16, name: "B. Puneeth Reddy", position: "Sub-Coordinator" },
+];
 console.log(SponsorsImages);
 
 export default {
 	logo,
 	SponsorsImages,
-	CoordsImages,
-	SubCoordsImages,
+	dev_CoordsImages,
+	dev_SubCoordsImages,
+	events_CoordsImages,
+	events_SubCoordsImages,
 };
