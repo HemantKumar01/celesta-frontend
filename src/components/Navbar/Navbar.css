@@ -1,0 +1,184 @@
+/* General navbar styling */
+.navbar {
+	background-color: transparent;
+	display: flex;
+	/* min-width: 50%; */
+	gap: 5em;
+	justify-content: flex-end;
+	align-items: center;
+	z-index: 50;
+}
+
+/* Hide the menu by default on mobile */
+.nav-menu {
+	display: none;
+	flex-direction: column;
+	/* justify-content: space-evenly; */
+	row-gap: 20px;
+	column-gap: calc(5px + 2vw);
+	padding: 40px 0;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	top: 60px;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: 10;
+}
+
+.nav-menu.active {
+	display: flex;
+}
+
+/* Menu items styling */
+.nav-item {
+	margin: 10px 0px;
+	text-align: center;
+	text-wrap: nowrap;
+}
+
+.nav-item > a {
+	padding: 5px 0;
+}
+
+.nav-link {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+	color: #f39c12;
+}
+
+/* Hamburger Menu Icon Styling */
+.menu-icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 25px;
+	cursor: pointer;
+}
+
+.bar {
+	height: 4px;
+	width: 100%;
+	background-color: white;
+	transition: all 0.3s ease-in-out;
+}
+
+/* When the menu is open, transform the bars into an "X" */
+.menu-icon.open .bar:nth-child(1) {
+	transform: translateY(10px) rotate(45deg);
+}
+
+.menu-icon.open .bar:nth-child(2) {
+	opacity: 0;
+}
+
+.menu-icon.open .bar:nth-child(3) {
+	transform: translateY(-10px) rotate(-45deg);
+}
+
+/* Buttons */
+.nav-button {
+	background: none;
+	border: 1px solid white;
+	padding: 5px 20px;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.nav-button:hover {
+	background-color: white;
+	color: black;
+}
+
+.register-button {
+	background-color: white;
+	color: black;
+}
+
+.register-button:hover {
+	background-color: transparent;
+	color: white;
+}
+
+/* Desktop menu styles */
+@media (min-width: 768px) {
+	.menu-icon {
+		display: none;
+	}
+
+	.nav-menu {
+		display: flex;
+		flex-direction: row;
+		position: static;
+		background-color: transparent;
+	}
+
+	.dropdown-menu {
+		position: absolute;
+		top: 40px;
+		left: 0;
+		width: auto;
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	.dropdown-menu div {
+		margin: 5px 0;
+	}
+}
+
+.dropdown {
+	font-size: 18px;
+	position: relative;
+}
+
+.dropdown-toggle {
+	/* Styles for the anchor tag that triggers the dropdown */
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.dropdown-menu {
+	display: flex;
+	width: 200px;
+	position: absolute;
+	left: -60px;
+	top: 100%;
+	align-items: center;
+	background-color: #313131a3;
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	padding-top: 30px;
+	color: rgb(245, 245, 245);
+	font-size: 18px;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.dropdown-menu * {
+	margin: 10px;
+	text-align: center;
+}
+
+.dropdown-menu *:hover {
+	color: #d49bf1;
+	margin-left: 20px;
+}
+
+.dropdown-menu:hover {
+	display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
