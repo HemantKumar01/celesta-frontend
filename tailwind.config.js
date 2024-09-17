@@ -20,7 +20,6 @@ module.exports = {
       boxShadow: {
         'custom': '0 5px 25px rgba(355, 333, 250, 0.775)',
         'hover': '0 0px 40px rgba(350, 333, 250, 0.775)',
-
       }
     },
   },
