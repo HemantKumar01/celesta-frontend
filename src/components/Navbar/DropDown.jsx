@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
 
-function DropdownMenu() {
+export default function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
 
