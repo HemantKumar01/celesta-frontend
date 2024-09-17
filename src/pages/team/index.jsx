@@ -19,12 +19,18 @@ export default function Team() {
 function TeamMain() {
 	return (
 		<div>
-        <Team_template team_name="Development Team" coordsarray={images.dev_CoordsImages} subcoordsarray={images.dev_SubCoordsImages}/>
-        <Team_template team_name="Events" coordsarray={images.events_CoordsImages} subcoordsarray={images.events_SubCoordsImages}/>
-        <Team_template team_name="Creatives And Designs" coordsarray={images.events_CoordsImages} subcoordsarray={images.events_SubCoordsImages}/>
-        <Team_template team_name="RSP Committee" coordsarray={images.rsp_CoordsImages} subcoordsarray={images.rsp_SubCoordsImages}/>
-        <Team_template team_name="GLE Committee" coordsarray={images.gle_CoordsImages} subcoordsarray={images.gle_SubCoordsImages}/>
-        <Team_template team_name="Workshop Committee" coordsarray={images.workshop_CoordsImages} subcoordsarray={images.workshop_SubCoordsImages}/>
+			<Team_template team_name="Fest Coordinators" coordsarray={images.fest_CoordsImages} />
+			<Team_template team_name="Advisory" coordsarray={images.advisory_CoordsImages} />
+			<Team_template team_name="Flagship Events" coordsarray={images.flagship_CoordsImages} />
+			<Team_template team_name="Events Team" coordsarray={images.events_CoordsImages} />
+			<Team_template team_name="Development Team" coordsarray={images.dev_CoordsImages} />
+			<Team_template team_name="Marketing and Sponsorship" coordsarray={images.spons_CoordsImages} />
+			<Team_template team_name="Media and Public Relations" coordsarray={images.mpr_CoordsImages} />
+			<Team_template team_name="Creatives And Designs" coordsarray={images.cnd_CoordsImages} />
+			<Team_template team_name="Workshop Committee" coordsarray={images.workshop_CoordsImages} />
+			<Team_template team_name="GLE Committee" coordsarray={images.gle_CoordsImages} />
+			<Team_template team_name="RSP Committee" coordsarray={images.rsp_CoordsImages} />
+			<Team_template team_name="Hospitality Committee" coordsarray={images.hospi_CoordsImages} />
 		</div>
 	);
 }

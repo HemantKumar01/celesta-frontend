@@ -176,9 +176,9 @@
 }
 
 .dropdown-menu:hover {
-	display: block;
+	display: flex;
 }
 
 .dropdown:hover .dropdown-menu {
-	display: block;
+	display: flex;
 }
