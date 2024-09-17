@@ -1,5 +1,5 @@
 import Footer from "@/components/footer/footer";
-import Header from "@/components/header/header";
+import Navbar from "@/components/Navbar/Navbar";
 import Team_template from "@/components/team/team";
 import images from "@/constants/images";
 
