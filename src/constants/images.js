@@ -16,6 +16,7 @@ import spons14 from "/public/sponsors_images/spons14.png";
 import spons15 from "/public/sponsors_images/spons15.png";
 import spons16 from "/public/sponsors_images/spons16.png";
 import spons17 from "/public/sponsors_images/spons17.png";
+
 import dev_coord1 from "/public/team_images/dev_team/coord1.jpg";
 import dev_coord2 from "/public/team_images/dev_team/coord2.jpg";
 import dev_coord3 from "/public/team_images/dev_team/coord3.jpg";
@@ -52,6 +53,43 @@ import events_subcoord13 from "/public/team_images/events_team/subcoord13.jpg";
 import events_subcoord14 from "/public/team_images/events_team/subcoord14.jpg";
 import events_subcoord15 from "/public/team_images/events_team/subcoord15.jpg";
 import events_subcoord16 from "/public/team_images/events_team/subcoord16.jpg";
+
+import rsp_coord1 from "/public/team_images/rsp_team/coord1.jpg";
+import rsp_coord2 from "/public/team_images/rsp_team/coord2.jpg";
+import rsp_coord3 from "/public/team_images/rsp_team/coord3.jpg";
+import rsp_coord4 from "/public/team_images/rsp_team/coord4.jpg";
+import rsp_subcoord1 from "/public/team_images/rsp_team/subcoord1.jpg";
+import rsp_subcoord2 from "/public/team_images/rsp_team/subcoord2.jpg";
+import rsp_subcoord3 from "/public/team_images/rsp_team/subcoord3.jpg";
+import rsp_subcoord4 from "/public/team_images/rsp_team/subcoord4.jpg";
+import rsp_subcoord5 from "/public/team_images/rsp_team/subcoord5.jpg";
+import rsp_subcoord6 from "/public/team_images/rsp_team/subcoord6.jpg";
+import rsp_subcoord7 from "/public/team_images/rsp_team/subcoord7.jpg";
+import rsp_subcoord8 from "/public/team_images/rsp_team/subcoord8.jpg";
+import rsp_subcoord9 from "/public/team_images/rsp_team/subcoord9.jpg";
+import rsp_subcoord10 from "/public/team_images/rsp_team/subcoord10.jpg";
+import rsp_subcoord11 from "/public/team_images/rsp_team/subcoord11.jpg";
+
+import gle_coord1 from "/public/team_images/gle_team/coord1.jpg";
+import gle_coord2 from "/public/team_images/gle_team/coord2.jpg";
+import gle_coord3 from "/public/team_images/gle_team/coord3.jpg";
+import gle_coord4 from "/public/team_images/gle_team/coord4.jpg";
+import gle_subcoord1 from "/public/team_images/gle_team/subcoord1.jpg";
+import gle_subcoord2 from "/public/team_images/gle_team/subcoord2.jpg";
+import gle_subcoord3 from "/public/team_images/gle_team/subcoord3.jpg";
+import gle_subcoord4 from "/public/team_images/gle_team/subcoord4.jpg";
+import gle_subcoord5 from "/public/team_images/gle_team/subcoord5.jpg";
+import gle_subcoord6 from "/public/team_images/gle_team/subcoord6.jpg";
+import gle_subcoord7 from "/public/team_images/gle_team/subcoord7.jpg";
+import gle_subcoord8 from "/public/team_images/gle_team/subcoord8.jpg";
+
+import workshop_coord1 from "/public/team_images/workshop_team/coord1.jpg";
+import workshop_coord2 from "/public/team_images/workshop_team/coord2.jpg";
+import workshop_subcoord1 from "/public/team_images/workshop_team/subcoord1.jpg";
+import workshop_subcoord2 from "/public/team_images/workshop_team/subcoord2.jpg";
+import workshop_subcoord3 from "/public/team_images/workshop_team/subcoord3.jpg";
+import workshop_subcoord4 from "/public/team_images/workshop_team/subcoord4.jpg";
+import workshop_subcoord5 from "/public/team_images/workshop_team/subcoord5.jpg";
 
 const SponsorsImages = [
 	{ image: spons1, name: "BRPNNL Bihar", href: "https://brpnnl.bihar.gov.in/" },
@@ -118,6 +156,57 @@ const events_SubCoordsImages = [
 	{ image: events_subcoord15, name: "Viraj Kulkarni", position: "Sub-Coordinator" },
 	{ image: events_subcoord16, name: "B. Puneeth Reddy", position: "Sub-Coordinator" },
 ];
+
+const rsp_CoordsImages = [
+	{ image: rsp_coord1, name: "JAYPRAKASH PRAJAPATI", position: "Coordinator" },
+	{ image: rsp_coord2, name: "ARPITA AGARWAL", position: "Coordinator" },
+	{ image: rsp_coord3, name: "SUPRATHEEK", position: "Coordinator" },
+	{ image: rsp_coord4, name: "YESHWANT", position: "Coordinator" },];
+
+	const rsp_SubCoordsImages = [
+	{ image: rsp_subcoord1, name: "ADITYA CHANDRA", position: "Sub-Coordinator" },
+	{ image: rsp_subcoord2, name: "ISHIKA KHANAGWAL", position: "Sub-Coordinator" },
+	{ image: rsp_subcoord3, name: "DHIVYESH", position: "Sub-Coordinator" },
+	{ image: rsp_subcoord4, name: "RAQEEB ANSARI", position: "Sub-Coordinator" },
+	{ image: rsp_subcoord5, name: "KANIKA SHRIVASTAVA", position: "Sub-Coordinator" },
+	{ image: rsp_subcoord6, name: "ABHIMANYU RAJPOOT", position: "Sub-Coordinator" },
+	{ image: rsp_subcoord7, name: "AJAY KUMAR SAINI", position: "Sub-Coordinator" },
+	{ image: rsp_subcoord8, name: "VIBHUTI GUPTA", position: "Sub-Coordinator" },
+	{ image: rsp_subcoord9, name: "MOHIT MEENA", position: "Sub-Coordinator" },
+	{ image: rsp_subcoord10, name: "OM RONTE", position: "Sub-Coordinator" },
+	{ image: rsp_subcoord11, name: "JAYANTH MALLADI", position: "Sub-Coordinator" },
+];
+
+const gle_CoordsImages = [
+	{ image: gle_coord1, name: "DEEPAK  PATEL", position: "Coordinator" },
+	{ image: gle_coord2, name: "S AKASH", position: "Coordinator" },
+	{ image: gle_coord3, name: "SOMIL", position: "Coordinator" },
+	{ image: gle_coord4, name: "GURINDER SINGH", position: "Coordinator" },];
+
+	const gle_SubCoordsImages = [
+	{ image: gle_subcoord1, name: "PRAJYOT", position: "Sub-Coordinator" },
+	{ image: gle_subcoord2, name: "ADITYA", position: "Sub-Coordinator" },
+	{ image: gle_subcoord3, name: "MAYANK", position: "Sub-Coordinator" },
+	{ image: gle_subcoord4, name: "PIYUSH", position: "Sub-Coordinator" },
+	{ image: gle_subcoord5, name: "DEVASISH", position: "Sub-Coordinator" },
+	{ image: gle_subcoord6, name: "UDIT", position: "Sub-Coordinator" },
+	{ image: gle_subcoord7, name: "ASHISH", position: "Sub-Coordinator" },
+	{ image: gle_subcoord8, name: "JITENDRA", position: "Sub-Coordinator" },
+];
+
+const workshop_CoordsImages = [
+	{ image: workshop_coord1, name: "Animesh Tripathy", position: "Coordinator" },
+	{ image: workshop_coord2, name: "Swaraj Mishra", position: "Coordinator" },];
+
+	const workshop_SubCoordsImages = [
+	{ image: workshop_subcoord1, name: "Raushan Raj", position: "Sub-Coordinator" },
+	{ image: workshop_subcoord2, name: "Shreesh Polawar", position: "Sub-Coordinator" },
+	{ image: workshop_subcoord3, name: "Abhijat Jha", position: "Sub-Coordinator" },
+	{ image: workshop_subcoord4, name: "Korak Basu", position: "Sub-Coordinator" },
+	{ image: workshop_subcoord5, name: "Nishant", position: "Sub-Coordinator" },
+];
+
+
 console.log(SponsorsImages);
 
 export default {
@@ -127,4 +216,10 @@ export default {
 	dev_SubCoordsImages,
 	events_CoordsImages,
 	events_SubCoordsImages,
+	rsp_CoordsImages,
+	rsp_SubCoordsImages,
+	gle_CoordsImages,
+	gle_SubCoordsImages,
+	workshop_CoordsImages,
+	workshop_SubCoordsImages,
 };
