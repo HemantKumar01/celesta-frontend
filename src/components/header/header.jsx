@@ -3,7 +3,7 @@ import { images } from "@/constants";
 import { Link } from "react-router-dom";
 // import { useEffect, useRef, useState } from "react";
 import DropdownMenu from "./DropDown";
-import Navbar from './Navbar';
+import Navbar from '@/components/Navbar/Navbar';
 
 const Header = () => {
   // const navigate = useNavigate();
