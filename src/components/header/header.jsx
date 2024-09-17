@@ -2,7 +2,6 @@ import { images } from "@/constants";
 // import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
 // import { useEffect, useRef, useState } from "react";
-import DropdownMenu from "./DropDown";
 import Navbar from '@/components/Navbar/Navbar';
 
 const Header = () => {

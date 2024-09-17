@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import DropdownMenu from "./DropdownMenu"; // Importing DropdownMenu
+import Dropdown from "./Dropdown"; // Importing DropdownMenu
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +33,7 @@ const Navbar = () => {
 
           {/* Dropdown Menu now behaves the same as desktop (hover-based) */}
           <li className="nav-item dropdown-hover">
-            <DropdownMenu />
+            <Dropdown />
           </li>
 
           <li className="nav-item">
