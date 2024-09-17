@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
 
-export default function Dropdown() {
+function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -64,4 +64,4 @@ export default function Dropdown() {
   );
 }
 
-export default DropdownMenu;
+export default Dropdown;
