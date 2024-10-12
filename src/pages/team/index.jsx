@@ -20,7 +20,7 @@ function TeamMain() {
 	return (
 		<div>
 			<Team_template team_name='Fest Coordinators' coordsarray={images.fest_CoordsImages} />
-			<Team_template team_name='Advisory' coordsarray={images.advisory_CoordsImages} />
+			<Team_template team_name='Conveners' coordsarray={images.advisory_CoordsImages} />
 			<Team_template team_name='Flagship Events' coordsarray={images.flagship_CoordsImages} />
 			<Team_template team_name='Events Team' coordsarray={images.events_CoordsImages} />
 			<Team_template team_name='Development Team' coordsarray={images.dev_CoordsImages} />
