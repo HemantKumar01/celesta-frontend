@@ -62,31 +62,9 @@ const Navbar = () => {
 						</Link>
 					</li>
 
-					{/* Login Button */}
-					<li className='nav-item'>
-						<button
-							onClick={() => {
-								alert('Too Early for the Fest. The Fest will be live soon');
-								toggleMenu();
-							}}
-							className='nav-button'
-						>
-							Login
-						</button>
-					</li>
+					
 
-					{/* Register Button */}
-					<li className='nav-item'>
-						<button
-							onClick={() => {
-								alert('Too Early for the Fest. The Fest will be live soon');
-								toggleMenu();
-							}}
-							className='nav-button register-button'
-						>
-							Register
-						</button>
-					</li>
+					
 				</ul>
 			</div>
 		</nav>
