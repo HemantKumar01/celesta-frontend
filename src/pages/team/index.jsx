@@ -2,7 +2,7 @@ import Footer from '@/components/footer/footer';
 import Navbar from '@/components/Navbar/Navbar';
 import Team_template from '@/components/team/team';
 import images from '@/constants/images';
-
+import { useEffect } from 'react';
 export default function Team() {
 	useEffect(() => {
         const scrollToTop = () => {
