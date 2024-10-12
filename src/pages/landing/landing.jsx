@@ -49,8 +49,8 @@ const HeroSection = ({ children }) => {
 				}}
 			>
 				<div className='main-content w-full max-w-[90vw] absolute top-1/3 left-1/2 translate-x-[-50%] translate-y-[-50%]'>
-					<div className='text flexbox flex-col'>
-						<div className='font-medium text-l md:text-3xl tracking-[0.8ch] text-white text-center'>
+					<div className='text flexbox flex-col '>
+						<div className='font-medium text-l md:text-3xl tracking-[0.8ch] text-white text-center '>
 							CELESTA
 						</div>
 						<div
