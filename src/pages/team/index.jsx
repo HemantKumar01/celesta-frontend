@@ -4,6 +4,12 @@ import Team_template from '@/components/team/team';
 import images from '@/constants/images';
 
 export default function Team() {
+	useEffect(() => {
+        const scrollToTop = () => {
+            window.scrollTo(0, 0);
+        };
+        scrollToTop();
+    }, []);
 	return (
 		<div className='w-full h-screen text-[#D9D9D9] relative'>
 			<Navbar />
