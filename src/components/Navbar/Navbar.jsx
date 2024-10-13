@@ -12,7 +12,7 @@ const Navbar = () => {
 	};
 	return (
 		<nav className='absolute top-0 left-0 w-full bg-transparent px-6 py-2 h-[60px] flex justify-between z-50'>
-			<img src={images.logo} alt='Celesta' className='h-[40px] w-auto cursor-pointer' />
+			<img src={images.logo} alt='Celesta' className='h-[40px] w-auto cursor-default' />
 
 			<div className='navbar'>
 				{/* Hamburger Menu Icon */}

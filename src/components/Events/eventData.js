@@ -1,0 +1,235 @@
+export const eventData=
+[
+    {
+      "Events Name": "CivilTech Challenge",
+      "Start date": "18th",
+      "End date": "18th",
+      "Description": "This coding challenge invites students from all branches to showcase their programming skills by solving problems inspired by civil engineering concepts. Participants will engage in a series of challenges that test their problem-solving abilities, algorithmic thinking, and coding proficiency.",
+      "Registration Link": "https://unstop.com/o/QXJsLgM?lb=uXL2AZ2n",
+      "Rule Book": "https://drive.google.com/file/d/13njHr-ks3GOz8JIM4E6K5sLFKBWn3ytM/view?usp=sharing",
+      "POC": "Lire Nirin-8798864140 Hemanth-7780472627 priyadarshini-9969346881",
+      "Prize Pool": 5000,
+      "Whatsapp links": "https://chat.whatsapp.com/FKAT7EwlTdwKTHYXvugrZx",
+      "Club": "ACE"
+    },
+    {
+      "Events Name": "Chem Rush",
+      "Start date": "19 Oct",
+      "End date": "19 Oct",
+      "Description": "This unique event invites participants to design and race miniature cars powered by the explosive reaction between baking soda and vinegar.",
+      "Registration Link": "https://unstop.com/competitions/chemrush-celesta-2024-indian-institute-of-technology-iit-patna-1173251",
+      "Rule Book": "https://drive.google.com/file/d/1qDs-eIk-vvNS4hrS7NRPXEvCL2GxkW9R/view?usp=sharing",
+      "POC": "TEJAS JADHAV -7498272862 RANJEET MOURYA-7985002878 ATHARVA PAWAR-7058043096",
+      "Prize Pool": "5,000",
+      "Whatsapp links": "https://chat.whatsapp.com/FFYjTbwGrXCDIaoETObp3D",
+      "Club": "CHESSX"
+    },
+    {
+      "Events Name": "Wave Bots",
+      "Start date": "19th",
+      "End date": "19th",
+      "Description": "In this competition, the contestant or team of contestants designs a robot car that needs to be controlled with hand gestures, within the specified dimensions. The robot car that completes the specified task in the least time and least Penalties will be the winner.",
+      "Registration Link": "https://docs.google.com/forms/d/e/1FAIpQLSc938YHjmW8-QjBnFB2ltEptkKRlrjinpoyAjCGAQ98ORBiZA/viewform",
+      "Rule Book": "https://drive.google.com/file/d/1PP-ZbQG_jAUHsam_m0lYnRD4rfIh6O4M/view?usp=drive_link",
+      "POC": "PUNEET REDDY-9632661845 \nUJWAL RAGHU-8884318633 \nPRASAD MHASKE-87766508402",
+      "Prize Pool": 8000,
+      "Whatsapp links": "https://chat.whatsapp.com/E2IDRv1LziQAbqMG7R7epI",
+      "Club": "SPARKONICS"
+    },
+    {
+      "Events Name": "Brandspace",
+      "Start date": "11 Oct",
+      "End date": "19 Oct",
+      "Description": "The brand, “Opus Interiors”, specializes in custom-designed, high-end furniture, lighting, and décor accessories that fuse contemporary luxury with artisanal craftsmanship. Each piece is designed to be a statement of elegance, elevating any space with its distinctive, timeless beauty. Luxury home décor is not only about creating beautiful interiors but also about curating an environment that exudes exclusivity, refinement, and personal style. In a competitive market, successful brands must differentiate themselves through unique design aesthetics, superior materials, and craftsmanship while creating an emotional connection with customers.",
+      "Registration Link": "https://unstop.com/o/Kdp8Jb0?lb=n4CgbOa1&utm_medium=Share&utm_source=WhatsApp",
+      "Rule Book": "https://drive.google.com/file/d/1DnzCVicu3JrQ9CNUakDa7T1lt6H20L-O/view?usp=sharing",
+      "POC": "Lohitaksha Guha     88503 93101  Sri Chandrika - 88854 00428",
+      "Prize Pool": 5000,
+      "Whatsapp links": "https://chat.whatsapp.com/FaPIeRGCJQW5GDXWb4XTEp",
+      "Club": "MOODBOARD"
+    },
+    {
+      "Events Name": "Depiction",
+      "Start date": "11 Oct",
+      "End date": "25 Oct",
+      "Description": "The event will be an online competition open for everyone in which the participants are required to paint anything on the theme 'Echoes of the Past, Visions of the Future’ And submit their entries before the deadline(to be notified). Any medium can be used by the participants",
+      "Registration Link": "https://unstop.com/o/ZUHcAoN?lb=n4CgbOa1&utm_medium=Share&utm_source=WhatsApp",
+      "Rule Book": "https://drive.google.com/file/d/1HbEzLyPTWXDHZQmsqs7b5EzcEPyT0Pjh/view?usp=sharing",
+      "POC": "Pranjal Chamaria-9435623580 Sukrit Ghosh- 9051640303 Yuvan-6281619637",
+      "Prize Pool": "8,000",
+      "Whatsapp links": "https://chat.whatsapp.com/LkPH1haXzISBFt1Fllfz3g",
+      "Club": "VINCETROKE"
+    },
+    {
+      "Events Name": "Astrophysics Voyage",
+      "Start date": "14th Oct-quiz round",
+      "End date": "17th -19th oct-round 2 submission",
+      "Description": "The event is an online event consisting of 2 rounds in which the first round is quiz round that delves into the fascinating realms of Quantum Physics and Astronomy.And the second round is the coding round to utilize their skills for data science projects in astronomy.",
+      "Registration Link": "https://unstop.com/o/MoDcZXT?lb=HANkdjjC&utm_medium=Share&utm_source=WhatsApp",
+      "Rule Book": "https://drive.google.com/file/d/1V8k0IlrdNPQSW2128ip7mwFS8btN2hXa/view?usp=sharing",
+      "POC": "Vivek Kumar-9142874726 Parul Shrivastava-9425003001 Karthik-6301423229",
+      "Prize Pool": 5000,
+      "Whatsapp links": "https://chat.whatsapp.com/LkPH1haXzISBFt1Fllfz3g",
+      "Club": "AP CLUB"
+    },
+    {
+      "Events Name": "UXplorer",
+      "Start date": "11 Oct",
+      "End date": "19th Oct",
+      "Description": "WizardConnect is a mobile app designed for the magical inhabitants of the Wizarding World, offering essential services like navigation, social networking, and commerce. It embraces the culture, magic, and traditions of witches and wizards while leveraging the unique properties of the magical world to provide an immersive, enchanted digital experience",
+      "Registration Link": "https://unstop.com/o/xtumoOV?lb=uXL2AZ2n&utm_medium=Share&utm_source=WhatsApp",
+      "Rule Book": "https://drive.google.com/file/d/1LD3TOY2bzUkQucp65LVFaDlbLVLj8UAI/view?usp=sharing",
+      "POC": "Jyoti Shikha - 8800502997           Sri Chandrika -8885400428",
+      "Prize Pool": 5000,
+      "Whatsapp links": "https://chat.whatsapp.com/KIu8Fa4Dg6gJvNnxZ8R3Nh",
+      "Club": "MOODBOARD"
+    },
+    
+    {
+      "Events Name": "Kepler's Maze",
+      "Start date": "19th Oct",
+      "End date": "19th Oct",
+      "Description": "There will be a maze with locations having names of celestial bodies in our solar system and there will be a puzzle piece at each location.",
+      "Registration Link": "",
+      "Rule Book": "https://drive.google.com/file/d/1q7XdB7o0KnHtYtIwuDb9EAghe_Rfvda7/view?usp=sharing",
+      "POC": "Vinod Singh -8171334953 \nMayank Singh-9027206586\n Karthik-6301423229",
+      "Prize Pool": 5000,
+      "Whatsapp links": "https://chat.whatsapp.com/Hzmc8LPTAVTHxwP4qtHbWM",
+      "Club": "AP CLUB"
+    },
+    {
+      "Events Name": "Case Study",
+      "Start date": "10th - Quiz,12th problem statement  Release",
+      "End date": "18th Case Study Submission, 20th presentation",
+      "Description": "CSC is conducted by Finance Club, IIT Patna in collaboration with Celesta IIT Patna to be held on 10/10/24 in purely online mode. \nThe event shall involve three rounds:\nRound 1: Online Quiz Round: All registered teams will have to take a short quiz to validate their participation on Unstop. The quiz will consist of basic questions that revolve around the world of consulting, small businesses, and finance. Teams with a score above the minimum required score will proceed further.\nRound 2: Online Elimination Round: The participants shall be presented a case on the theme by 12/10/24 and they shall submit their analysis on or before 18/10/24. An expert panel shall judge the case analysis and select the finalists for the next round.\nRound 3: Presentation Round: The finalists shall be required to complete their registration by filling out the registration form in order to present their analysis of the case before a panel of expert judges on 20/10/24 in purely online mode.",
+      "Registration Link": "https://unstop.com/o/uFfwp6h?lb=uXL2AZ2n",
+      "Rule Book": "https://drive.google.com/file/d/1Z2zZfiE5tlDGIforwnq3r_n4i-GESpVR/view?usp=sharing",
+      "POC": "Shaurya-8303274792 Ipshita-8329875310 Lalith-7702056977",
+      "Prize Pool": "8,000",
+      "Whatsapp links": "https://chat.whatsapp.com/B4qQHAzjt3oJPB4QswRV8P",
+      "Club": "FINANCE CLUB"
+    },
+    {
+      "Events Name": "Meme Mastermind",
+      "Start date": "11 Oct",
+      "End date": "17 Oct",
+      "Description": "Get ready to dive into the world of marketing as the club presents Meme Mastermind  a competition. It's not just about creating memes; it's about unlocking the secrets of effective marketing while having a blast",
+      "Registration Link": "https://unstop.com/o/beIvAa9?lb=n4CgbOa1&utm_medium=Share&utm_source=WhatsApp",
+      "Rule Book": "https://drive.google.com/file/d/1MxqPpQXApek1KGDqD_m4F_a3-uyKA-7I/view?usp=sharing",
+      "POC": "Abhinandan Porwal-6306796285 Ayush Saraf-9649184296 Lalith-7702056977",
+      "Prize Pool": "3,000",
+      "Whatsapp links": "https://chat.whatsapp.com/HcxYQ5coRlIBNbxNeGLwRP",
+      "Club": "FINANCE CLUB"
+    },
+    {
+      "Events Name": "Future Visonaries",
+      "Start date": "2 Oct",
+      "End date": "10 Oct",
+      "Description": "Future Visionaries: The 2050 Business Blueprint is a forward-thinking competition that invites participants to envision and design business models suited for the year 2050. The competition is designed to challenge individuals and teams to think outside the box, addressing the future’s potential challenges with innovative and sustainable solutions.",
+      "Registration Link": "https://unstop.com/competitions/future-visionaries-the-2050-business-blueprint-celesta-2024-celesta-iitp-1173202",
+      "Rule Book": "https://drive.google.com/file/d/1WO_z5UAo6XlrrONJeCMA-9JzgJ8MitSy/view?usp=sharing",
+      "POC": "Parth Ganjewar- 8308917584 Tushar Garg- 8168853283                Aayush Sheth- 7016066732",
+      "Prize Pool": "8,000",
+      "Whatsapp links": "https://chat.whatsapp.com/JRO070NGtkn3OFN4ttidNJ",
+      "Club": "E-CELL"
+    },
+    {
+      "Events Name": "Evolution of Films",
+      "Start date": "2 Oct",
+      "End date": "17th",
+      "Description": "This event invites teams to create a 5-10 minute film exploring the evolution of cameras and the film industry. Participants can focus on technological advancements, their impact, or future possibilities.",
+      "Registration Link": "https://unstop.com/p/evolution-of-camera-and-films-celesta-2024-celesta-iitp-1173234",
+      "Rule Book": "https://drive.google.com/file/d/1fPy786mEHMQj-TX-psGZMFW1EILIAnOH/view?usp=sharing",
+      "POC": "Parul Garg-9464319896 Lochan-6300134922 Aayush Sheth-7016066732",
+      "Prize Pool": "Celesta goodies + Mention from Celesta Handle",
+      "Whatsapp links": "https://chat.whatsapp.com/IyliBJFEEG7FDgMZYIysiB",
+      "Club": "PIXXEL"
+    },
+    {
+      "Events Name": "Static Rush",
+      "Start date": "19 Oct",
+      "End date": "19 Oct",
+      "Description": "Basically,  this event will be of treasure hunt type . At each location we would place a clue with a volunteer and if they solve that clue , they will be proceeded to other locations of the rush with a component of a circuit. At the final stage they should build the circuit with the components given at each stage of the rush",
+      "Registration Link": "https://docs.google.com/forms/d/e/1FAIpQLSecN0pHi9IBPLB-cclTJxeC78CmOLVh8WMpriSf_OjRBDh6Ew/viewform?usp=sf_link",
+      "Rule Book": "https://drive.google.com/file/d/1ujCQFKtL9-OV8i69hBWcwOBzSArTzEcz/view?usp=sharing",
+      "POC": "Hemanth-7780472627 PrasadMhaske-8766508402 Prateek Gupta-7897471548",
+      "Prize Pool": 5000,
+      "Whatsapp links": "https://chat.whatsapp.com/IFGymP7GYCjDrrIjsIlyE1",
+      "Club": ""
+    },
+    {
+      "Events Name": "Beg Borrow Steal",
+      "Start date": "20 Oct",
+      "End date": "20 Oct",
+      "Description": "So many items to be found, but so little time. Gather your friends or foes and use whatever means possible in order to attain the maximum amount of items in the given time period. Remember, the only rule is that the items should be genuine. The rest is up to you :)",
+      "Registration Link": "https://forms.gle/1QWNHTUFPbZ7UYi19",
+      "Rule Book": "https://drive.google.com/file/d/1qGLJ1-hOSGerHr7Wt644S1ROfZmG7w70/view?usp=sharing",
+      "POC": "Sri Chandrika-8885400428 Lalith-7702056977 Kartik-6301423229 Hemanth-7780472627",
+      "Prize Pool": 5000,
+      "Whatsapp links": "https://chat.whatsapp.com/C3smvTjXVvjBR8ETgUiQO9",
+      "Club": ""
+    },
+    {
+      "Events Name": "Asian Parliamentary Debate",
+      "Start date": "19th",
+      "End date": "20th",
+      "Description": "Asian Parliamentary Debate (APD) is a dynamic, spontaneous, and structured form of debating that encourages critical thinking, effective argumentation, and teamwork",
+      "Registration Link": "https://unstop.com/events/asian-parliamentary-debate-celesta-2024-indian-institute-of-technology-iit-patna-1173713",
+      "Rule Book": "https://drive.google.com/file/d/1UB53AwWKiv0FdZBDSImleE7JsJq9NoeA/view?usp=sharing",
+      "POC": "Krishna Gupta-8826396204\n Magan-8178075050\n Sreyas-9741485180",
+      "Prize Pool": 5000,
+      "Whatsapp links": "https://chat.whatsapp.com/FnMIshzvd0xEbgmBssq3eJ",
+      "Club": "HOOT"
+    },
+    {
+      "Events Name": "Mind Benders",
+      "Start date": "20 Oct",
+      "End date": "20 Oct",
+      "Description": "a mental and logical ability test like no other! Test your intellect, solve intricate puzzles, and push your logical reasoning to its limits. Whether you're a seasoned puzzle solver or a curious mind eager to explore, this event is designed to intrigue and inspire.",
+      "Registration Link": "https://docs.google.com/forms/d/e/1FAIpQLSdPJ4jhfqrFIP5vbKIzKgvpYKXMUhKkzomMpT6SuwgsqGIz0A/viewform",
+      "Rule Book": "https://drive.google.com/file/d/1XumoCMX1RBUMTF1c6TDXKlH_6ufKf0Cc/view?usp=sharing",
+      "POC": "Sreyas-9741485180                      Aayush Sheth-7016066732 \nAnish Raghashetty-9511670467",
+      "Prize Pool": 10000,
+      "Whatsapp links": "https://chat.whatsapp.com/CV8m9R8Qhpo1x8D1uq9QOe",
+      "Club": ""
+    },
+    
+    
+   
+    {
+      "Events Name": "Sudo Override",
+      "Start date": "19 Oct",
+      "End date": "20 Oct",
+      "Description": "Sudo Override is the second edition of Capture The Flag (CTF) event organized by NJACK, IIT Patna in collaboration with Celesta 2024. It aims to bring students with various skill sets together, where participants must reverse engineer, break, hack, decrypt, and think creatively and critically to solve the challenges and capture the flags. This is a twenty-four-hour long timed CTF competition",
+      "Registration Link": "https://unstop.com/o/LDsaRiz?lb=uXL2AZ2n&utm_medium=Share&utm_source=shortUrl",
+      "Rule Book": "https://drive.google.com/file/d/1TPYG92Pk5jicK3o5Il-aI_5GYrjXOabK/view?usp=sharing",
+      "POC": "Rishit-9668089082 Suman-9142915810 Anish-9511670467\nSreyas-9741485180",
+      "Prize Pool": 10000,
+      "Whatsapp links": "https://chat.whatsapp.com/KbBAwf9Mqh0A0qt27dJB5d",
+      "Club": "NJACK"
+    },
+    {
+      "Events Name": "Quest-ion",
+      "Start date": "",
+      "End date": "Event date - 19 Oct",
+      "Description": "",
+      "Registration Link": "https://chat.whatsapp.com/I2RP8NVj0wo6sJWE64ZvT2",
+      "Rule Book": "",
+      "POC": "Ashmit Verma(70870 78558)\nAmal Biju(9778299899)\nPrateek Gupta(7897471548)",
+      "Prize Pool": 5000,
+      "Whatsapp links": "https://chat.whatsapp.com/I2RP8NVj0wo6sJWE64ZvT2",
+      "Club": "Quiz Club"
+    },
+    {
+      "Events Name": "Njath",
+      "Start date": "15th Oct",
+      "End date": "18th Oct",
+      "Description": "All options set, you signal for the machine to be turned on. Almost immediately a nauseating feeling overtakes those inside the room. After a while the nausea slowly subsides.\n\"Transformation Complete. Time taken: 321 years. There was a glitch in Sector A3 however. User is requested to fix it personally\" the machine blurts out, displaying a glitchy map of the sector in question.  \nCelesta presents NJATH, a not so run of the mill Treasure Hunt. Try solving consecutive rounds of mind-numbing questions as you get closer to the treasure.",
+      "Registration Link": "https://chat.whatsapp.com/HfbU3pj2m7UA9GjCjXYKFa",
+      "Rule Book": "",
+      "POC": "Nakshatra Kanchan (+91 7644965300) ,Viraj Kulkarni (+91 99709 44019)",
+      "Prize Pool": 10000,
+      "Whatsapp links": "https://chat.whatsapp.com/HfbU3pj2m7UA9GjCjXYKFa",
+      "Club": ""
+    }
+  ]
