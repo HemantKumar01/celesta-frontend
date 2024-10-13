@@ -11,6 +11,7 @@ export default function Team_template({ team_name, coordsarray }) {
 							key={index}
 							className='flex flex-col gap-3 items-center m-1 mb-8 lg:m-5 lg:mb-10'
 						>
+						<a href={e.href} target='_blank' rel='noopener noreferrer'>
 							<div
 								className='overflow-hidden lg:h-[250px] lg:w-[200px] w-[120px] h-[150px] shadow-custom hover:shadow-hover p-[3px] rounded-lg bg-black flex justify-center items-center'
 								style={{
@@ -19,9 +20,12 @@ export default function Team_template({ team_name, coordsarray }) {
 									backgroundPosition: 'center',
 								}}
 							></div>
+							</a>
+							<a href={e.href} target='_blank' rel='noopener noreferrer'>
 							<div className='overflow-hidden lg:h-[50px] lg:w-[200px] min-w-[120px] text-nowrap min-h-[40px] shadow-custom hover:shadow-hover p-[3px] rounded-lg bg-black flex justify-center items-center'>
 								<p>{e.name}</p>
 							</div>
+							</a>
 						</div>
 					);
 				})}
